@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -60,11 +60,17 @@
   
 
   
+    
+      
+    
+
+    
+  
 
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -106,7 +112,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -211,7 +217,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            目录
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -222,6 +238,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -296,6 +322,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -322,1326 +370,21 @@
       
         
           
-            <p><img src="data:image/*;base64,/9j/4AAQSkZJRgABAQEA3ADcAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAE0AdsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKY7EA49aVwH0VSu9XhsImlmmjhhjGWd2CqPfJ4rg/FP7XHww8GSlNU+IXg2wkU8pLq8Af8t2a56+Mo0VetJR9Wl+Z04TB4jEvlw9OU35Jv8kz0mivGLP/AIKCfBbVLgQw/E3wiXPrqCKv1yeMV3fhb41+EfHJjGi+KPD+qlxkCz1GGcn/AL5Y1FLMMNU+CpF+jTN8RlOOoK9ajKPrFr80dZRTPMV/utnvxTx0FdiZ51wooooGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFBOBSOwRST0FeU/tY/taeHP2UPh4+ta05uLu4zFp2nxMBNqEuPuLnooyCzHhR+APNjMbQwtGWIxElGEVdtnXgMBiMbiIYTCwc6k3ZJbt/wBfcdf8T/izoPwh8KXGt+I9VtNI0yz/ANZPcOFBPZVHVmPZRknHAr4H/aN/4LQ6nrFxLpfwx0c2du7eUuq6lEJJ5STgeVAMgZOMbySf7gNfLXxt+PPj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FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z" alt=""></p>
-<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1 前言"></a>1 前言</h2><p>为了利于项目维护以及规范开发，促进成员之间Code Review的效率，故提出以下开发规范，如有更好建议，请小组会议提出。</p>
-<h2 id="2-AS规范"><a href="#2-AS规范" class="headerlink" title="2 AS规范"></a>2 AS规范</h2><p>工欲善其事，必先利其器。</p>
-<ol>
-<li>尽量使用最新版的IDE进行开发；</li>
-<li>编码格式统一为 <strong>UTF-8</strong> ；</li>
-<li>编辑完.java、 .xml等文件后一定要 <strong>格式化</strong> （基本格式方面使用 AS 默认模板即可）；</li>
-<li>删除多余的import，减少警告出现，可利用AS的Optimize Imports(Settings → Keymap → Optimize Imports)快捷键；</li>
-<li>AS常用开发插件可以参考这里～** <a href="http://www.jianshu.com/p/c76b0d8a642d" target="_blank" rel="external">AS常用开发插件</a>**</li>
-</ol>
-<h2 id="3-命名规范"><a href="#3-命名规范" class="headerlink" title="3 命名规范"></a>3 命名规范</h2><p>代码中的命名严禁使用拼音与英文混合的方式,更不允许直接使用中文的方式。正确的英文拼写和语法可以让阅读者易于理解,避免歧义。</p>
-<p>注意：即使纯拼音命名方式也要避免采用。但alibaba、taobao、youku、hangzhou等国际通用的名称,可视同英文。</p>
-<h3 id="3-1-包名"><a href="#3-1-包名" class="headerlink" title="3.1 包名"></a>3.1 包名</h3><p>包名全部小写，连续的单词只是简单地连接起来，不使用下划线，采用反域名命名规则，全部使用小写字母。一级包名是顶级域名，通常为com,edu,gov,net,org等，二级包名为公司名，三级包名根据应用进行命名，后面就是对包名的划分了，关于包名的划分，推荐使用按功能分，一开始我们也是按照层去分包的，很坑爹。按照功能分可能你不是很好区分在哪个功能中，不过也比你按照层区分要好找很多。具体可以参考这篇博文～** <a href="https://medium.com/@cesarmcferreira/package-by-features-not-layers-2d076df1964d#.mp782izhh" target="_blank" rel="external">Package by features, not layers</a> <strong>，当然，我们大谷歌也有相应的sample～</strong> <a href="https://github.com/google/iosched/tree/master/android/src/main/java/com/google/samples/apps/iosched" target="_blank" rel="external">iosched</a>**，其结构如下所示，很值得学习。</p>
-<p>java</p>
-<p>└─com</p>
-<pre><code>└─google
-
-    └─samples
-
-        └─apps
-
-            └─iosched
-
-                │  AppApplication.java  定义Application类
-
-                │  Config.java          定义配置数据（常量）
-
-                │
-
-                ├─about
-
-                │      AboutActivity.java
-
-                │
-
-                ├─appwidget
-
-                │      ScheduleWidgetProvider.java
-
-                │      ScheduleWidgetRemoteViewsService.java
-
-                │
-
-                ├─debug
-
-                │  │  DebugAction.java
-
-                │  │  DebugActivity.java
-
-                │  │  DebugFragment.java
-
-                │  │
-
-                │  └─actions
-
-                │          DisplayUserDataDebugAction.java
-
-                │          ForceAppDataSyncNowAction.java
-
-                │          ForceSyncNowAction.java
-
-                │          ...
-
-                │
-
-                ├─explore
-
-                │  │  ExploreIOActivity.java
-
-                │  │  ExploreIOFragment.java
-
-                │  │  ExploreModel.java
-
-                │  │  ...
-
-                │  │
-
-                │  └─data
-
-                │          ItemGroup.java
-
-                │          LiveStreamData.java
-
-                │          MessageData.java
-
-                │          ...
-
-                │
-
-                ├─feedback
-
-                │      FeedbackApiHelper.java
-
-                │      FeedbackConstants.java
-
-                │      FeedbackHelper.java
-
-                │      ...
-
-                │
-
-                ├─framework
-
-                │      FragmentListener.java
-
-                │      LoaderIdlingResource.java
-
-                │      Model.java
-
-                │      ...定义interface并实现
-
-                │
-
-                ├─gcm
-
-                │  │  GCMCommand.java
-
-                │  │  GCMIntentService.java
-
-                │  │  GCMRedirectedBroadcastReceiver.java
-
-                │  │  ...
-
-                │  │
-
-                │  └─command
-
-                │          AnnouncementCommand.java
-
-                │          NotificationCommand.java
-
-                │          SyncCommand.java
-
-                │          ...
-
-                │
-
-                ├─io
-
-                │  │  BlocksHandler.java
-
-                │  │  HandlerException.java
-
-                │  │  HashtagsHandler.java
-
-                │  │  ...处理model
-
-                │  │
-
-                │  ├─map
-
-                │  │  └─model
-
-                │  │          MapData.java
-
-                │  │          Marker.java
-
-                │  │          Tile.java
-
-                │  │
-
-                │  └─model
-
-                │          Block.java
-
-                │          DataManifest.java
-
-                │          Hashtag.java
-
-                │          ...
-
-                │
-
-                ├─map
-
-                │  │  InlineInfoFragment.java
-
-                │  │  MapActivity.java
-
-                │  │  MapFragment.java
-
-                │  │  ...
-
-                │  │
-
-                │  └─util
-
-                │          CachedTileProvider.java
-
-                │          MarkerLoadingTask.java
-
-                │          MarkerModel.java
-
-                │          ...
-
-                │
-
-                ├─model
-
-                │      ScheduleHelper.java
-
-                │      ScheduleItem.java
-
-                │      ScheduleItemHelper.java
-
-                │      ...定义model以及实现model相关操作
-
-                │
-
-                ├─myschedule
-
-                │      MyScheduleActivity.java
-
-                │      MyScheduleAdapter.java
-
-                │      MyScheduleFragment.java
-
-                │      ...
-
-                │
-
-                ├─provider
-
-                │      ScheduleContract.java
-
-                │      ScheduleContractHelper.java
-
-                │      ScheduleDatabase.java
-
-                │      ...实现ContentProvider
-
-                │      （也在此处定义provider依赖的其它类，比如db操作）
-
-                │
-
-                ├─receiver
-
-                │      SessionAlarmReceiver.java
-
-                │
-
-                ├─service
-
-                │      DataBootstrapService.java
-
-                │      SessionAlarmService.java
-
-                │      SessionCalendarService.java
-
-                │
-
-                ├─session
-
-                │      SessionDetailActivity.java
-
-                │      SessionDetailConstants.java
-
-                │      SessionDetailFragment.java
-
-                │      ...
-
-                │
-
-                ├─settings
-
-                │      ConfMessageCardUtils.java
-
-                │      SettingsActivity.java
-
-                │      SettingsUtils.java
-
-                │
-
-                ├─social
-
-                │      SocialActivity.java
-
-                │      SocialFragment.java
-
-                │      SocialModel.java
-
-                │
-
-                ├─sync
-
-                │  │  ConferenceDataHandler.java
-
-                │  │  RemoteConferenceDataFetcher.java
-
-                │  │  SyncAdapter.java
-
-                │  │  ...
-
-                │  │
-
-                │  └─userdata
-
-                │      │  AbstractUserDataSyncHelper.java
-
-                │      │  OnSuccessListener.java
-
-                │      │  UserAction.java
-
-                │      │  ...
-
-                │      │
-
-                │      ├─gms
-
-                │      │      DriveHelper.java
-
-                │      │      GMSUserDataSyncHelper.java
-
-                │      │
-
-                │      └─util
-
-                │              UserActionHelper.java
-
-                │              UserDataHelper.java
-
-                │
-
-                ├─ui
-
-                │  │  BaseActivity.java
-
-                │  │  CheckableLinearLayout.java
-
-                │  │  SearchActivity.java
-
-                │  │  ...BaseActivity以及自定义UI组件
-
-                │  │
-
-                │  └─widget
-
-                │          AspectRatioView.java
-
-                │          BakedBezierInterpolator.java
-
-                │          BezelImageView.java
-
-                │          ...自定义小UI控件
-
-                │
-
-                ├─util
-
-                │      AboutUtils.java
-
-                │      AccountUtils.java
-
-                │      AnalyticsHelper.java
-
-                │      ...工具类，提供静态方法
-
-                │
-
-                ├─videolibrary
-
-                │      VideoLibraryActivity.java
-
-                │      VideoLibraryFilteredActivity.java
-
-                │      VideoLibraryFilteredFragment.java
-
-                │      ...
-
-                │
-
-                └─welcome
-
-                        AccountFragment.java
-
-                        AttendingFragment.java
-
-                        ConductFragment.java
-
-                        ...
-</code></pre><p>参考Google I/O 2015的代码结构，按功能分包具体可以这样做：</p>
-<p>src</p>
-<p>└─com</p>
-<pre><code>└─domain
-
-    └─app
-
-        │  AppApplication.java  定义Application类
-
-        │  Config.java          定义配置数据（常量）
-
-        │
-
-        ├─framework
-
-        │      定义interface以及相关基类
-
-        │
-
-        ├─io
-
-        │      数据定义（model）、数据操作（比如json解析，但不包括db操作）
-
-        │
-
-        ├─model
-
-        │      定义model（数据结构以及getter/setter、compareTo、equals等等，不含复杂操作）
-
-        │      以及modelHelper（提供便于操作model的api）
-
-        │
-
-        ├─provider
-
-        │      实现ContentProvider，及其依赖的db操作
-
-        │
-
-        ├─receiver
-
-        │      实现Receiver
-
-        │
-
-        ├─service
-
-        │      实现Service（比如IntentService），用于在独立线程中异步do stuff
-
-        │
-
-        ├─ui
-
-        │      实现BaseActivity，以及自定义view和widget，相关的Adapter也放这里
-
-        │
-
-        ├─util
-
-        │      实现工具类，提供静态方法
-
-        │
-
-        ├─feature1
-
-        │      Item.java                定义model
-
-        │      ItemHelper.java          实现modelHelper
-
-        │      feature1Activity.java    定义UI
-
-        │      feature1DAO.java         私有db操作
-
-        │      feature1Utils.java       私有工具函数
-
-        │      ...其它私有class
-
-        │
-
-        ├─...其它feature
-</code></pre><p>PBF(按功能分包Package By Feature)与PBL(按层分包Package By Layer)相比较有如下优势：</p>
-<ul>
-<li>package内高内聚，package间低耦合</li>
-</ul>
-<p>哪块要添新功能，只改某一个package下的东西</p>
-<p>按class职能分层（PBL）降低了代码耦合，但带来了package耦合，要添新功能，需要改model、dbHelper、view、service等等，需要改动好几个package下的代码，改动的地方越多，越容易产生新问题，不是吗？</p>
-<p>按功能分包（PBF），featureA相关的所有东西都在featureA包，feature内高内聚高度模块化，不同feature之间低耦合，相关的东西都放在一起，还好找</p>
-<ul>
-<li>package有私有作用域（package-private scope）</li>
-</ul>
-<p>你负责开发这块功能，这个目录下所有东西都是你的</p>
-<p>PBL的方式是把所有工具方法都放在util包下，小张开发新功能时候发现需要一个xxUtil，但它又不是通用的，那应该放在哪里？没办法，按照分层原则，我们还得放在util包下，好像不太合适，但放在其它包更不合适，功能越来越多，util类也越定义越多。后来小李负责开发一块功能时发现需要一个xxUtil，同样不通用，去util包一看，怎么已经有了，而且还没法复用，只好放弃xx这个名字，改为xxxUtil……因为PBL的package没有私有作用域，每一个包都是public（跨包方法调用是很平常的事情，每一个包对其它包来说都是可访问的）</p>
-<p>如果是PBF，小张的xxUtil自然放在feautreA下，小李的xxUtil在featureB下，如果觉得util好像是通用的，就去util包看看要不要把工具方法添进xxUtil，class命名冲突没有了</p>
-<p>PBF的package有私有作用域，featureA不应该访问featureB下的任何东西（如果非访问不可，那就说明接口定义有问题）</p>
-<ul>
-<li>很容易删除功能</li>
-</ul>
-<p>统计发现新功能没人用，这个版本那块功能得去掉</p>
-<p>如果是PBL，得从功能入口到整个业务流程把受到牵连的所有能删的代码和class都揪出来删掉，一不小心就完蛋</p>
-<p>如果是PBF，好说，先删掉对应包，再删掉功能入口（删掉包后入口肯定报错了），完事</p>
-<ul>
-<li>高度抽象</li>
-</ul>
-<p>解决问题的一般方法是从抽象到具体，PBF包名是对功能模块的抽象，包内的class是实现细节，符合从抽象到具体，而PBL弄反了</p>
-<p>PBF从确定AppName开始，根据功能模块划分package，再考虑每块的具体实现细节，而PBL从一开始就要考虑要不要dao层，要不要com层等等</p>
-<ul>
-<li>只通过class来分离逻辑代码</li>
-</ul>
-<p>PBL既分离class又分离package，而PBF只通过class来分离逻辑代码</p>
-<p>没有必要通过package分离，因为PBL中也可能出现尴尬的情况：</p>
-<p>├─service</p>
-<pre><code>│      MainServ.java
-</code></pre><p>按照PBL，service包下的所有东西都是Controller，应该不需要Serv后缀，但实际上通常为了码起来方便，直接import service包，Serv后缀是为了避免引入的class和当前包下的class命名冲突，当然，不用后缀也可以，得写清楚包路径，比如new net.ayqy.service.Main()，麻烦</p>
-<p>而PBF就很方便，无需import，直接new MainServ()即可</p>
-<ul>
-<li>package的大小有意义了</li>
-</ul>
-<p>PBL中包的大小无限增长是合理的，因为功能越添越多</p>
-<p>而PBF中包太大（包里class太多）表示这块需要重构（划分子包）</p>
-<h3 id="3-2-类名"><a href="#3-2-类名" class="headerlink" title="3.2 类名"></a>3.2 类名</h3><p>类名都以UpperCamelCase风格编写。</p>
-<p>类名通常是名词或名词短语，接口名称有时可能是形容词或形容词短语。现在还没有特定的规则或行之有效的约定来命名注解类型。</p>
-<p>名词，采用大驼峰命名法，尽量避免缩写，除非该缩写是众所周知的， 比如HTML, URL，如果类名称中包含单词缩写，则单词缩写的每个字母均应大写。</p>
-<table>
-<thead>
-<tr>
-<th><strong>类</strong></th>
-<th><strong>描述</strong></th>
-<th><strong>例如</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Activity 类</td>
-<td>Activity为后缀标识</td>
-<td>欢迎页面类WelcomeActivity</td>
-</tr>
-<tr>
-<td>Adapter类</td>
-<td>Adapter 为后缀标识</td>
-<td>新闻详情适配器 NewDetailAdapter</td>
-</tr>
-<tr>
-<td>解析类</td>
-<td>Parser为后缀标识</td>
-<td>首页解析类HomePosterParser</td>
-</tr>
-<tr>
-<td>工具方法类</td>
-<td>Utils或Manager为后缀标识（与系统或第三方的Utils区分）或功能+Utils</td>
-<td>线程池管理类：ThreadPoolManager日志工具类：LogUtils（Logger也可）打印工具类：PrinterUtils</td>
-</tr>
-<tr>
-<td>数据库类</td>
-<td>以DBHelper后缀标识</td>
-<td>新闻数据库：NewDBHelper</td>
-</tr>
-<tr>
-<td>Service类</td>
-<td>以Service为后缀标识</td>
-<td>时间服务TimeService</td>
-</tr>
-<tr>
-<td>BroadcastReceiver类</td>
-<td>以Receiver为后缀标识</td>
-<td>推送接收JPushReceiver</td>
-</tr>
-<tr>
-<td>ContentProvider类</td>
-<td>以Provider为后缀标识</td>
-<td>ShareProvider</td>
-</tr>
-<tr>
-<td>自定义的共享基础类</td>
-<td>以Base开头</td>
-<td>BaseActivity,BaseFragment</td>
-</tr>
-</tbody>
-</table>
-<p>测试类的命名以它要测试的类的名称开始，以Test结束。例如：HashTest或HashIntegrationTest。</p>
-<p>接口（interface）：命名规则与类一样采用大驼峰命名法，多以able或ible结尾，如 interface Runnable、interface Accessible。</p>
-<p>注意：如果项目采用MVP，所有Model、View、Presenter的接口都以I为前缀，不加后缀，其他的接口采用上述命名规则。</p>
-<h3 id="3-3-方法名"><a href="#3-3-方法名" class="headerlink" title="3.3 方法名"></a>3.3 方法名</h3><p>方法名都以lowerCamelCase风格编写。</p>
-<p>方法名通常是动词或动词短语。</p>
-<table>
-<thead>
-<tr>
-<th><strong>方法</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>initXX()</td>
-<td>初始化相关方法,使用init为前缀标识，如初始化布局initView()</td>
-</tr>
-<tr>
-<td>isXX() checkXX()</td>
-<td>方法返回值为boolean型的请使用is或check为前缀标识</td>
-</tr>
-<tr>
-<td>getXX()</td>
-<td>返回某个值的方法，使用get为前缀标识</td>
-</tr>
-<tr>
-<td>setXX()</td>
-<td>设置某个属性值</td>
-</tr>
-<tr>
-<td>handleXX()/processXX()</td>
-<td>对数据进行处理的方法</td>
-</tr>
-<tr>
-<td>displayXX()/showXX()</td>
-<td>弹出提示框和提示信息，使用display/show为前缀标识</td>
-</tr>
-<tr>
-<td>updateXX()</td>
-<td>更新数据</td>
-</tr>
-<tr>
-<td>saveXX()</td>
-<td>保存数据</td>
-</tr>
-<tr>
-<td>resetXX()</td>
-<td>重置数据</td>
-</tr>
-<tr>
-<td>clearXX()</td>
-<td>清除数据</td>
-</tr>
-<tr>
-<td>removeXX()</td>
-<td>移除数据或者视图等，如removeView();</td>
-</tr>
-<tr>
-<td>drawXX()</td>
-<td>绘制数据或效果相关的，使用draw前缀标识</td>
-</tr>
-</tbody>
-</table>
-<h3 id="3-4-常量名"><a href="#3-4-常量名" class="headerlink" title="3.4 常量名"></a>3.4 常量名</h3><p>常量名命名模式为CONSTANT_CASE，全部字母大写，用下划线分隔单词。那，到底什么算是一个常量？</p>
-<p>每个常量都是一个静态final字段，但不是所有静态final字段都是常量。在决定一个字段是否是一个常量时，考虑它是否真的感觉像是一个常量。例如，如果任何一个该实例的观测状态是可变的，则它几乎肯定不会是一个常量。只是永远不打算改变对象一般是不够的，它要真的一直不变才能将它示为常量。</p>
-<p>// Constants</p>
-<p>staticfinalintNUMBER=5;</p>
-<p>staticfinalImmutableListNAMES=ImmutableList.of(“Ed”, “Ann”);</p>
-<p>staticfinalJoinerCOMMA_JOINER=Joiner.on(&#39;,&#39;); // because Joiner is immutable</p>
-<p>staticfinalSomeMutableType[] EMPTY_ARRAY= {};</p>
-<p>enumSomeEnum { ENUM_CONSTANT }</p>
-<p>// Not constants</p>
-<p>staticString nonFinal =”non-final”;</p>
-<p>finalString nonStatic =”non-static”;</p>
-<p>staticfinalSetmutableCollection=newHashSet();</p>
-<p>staticfinalImmutableSetmutableElements=ImmutableSet.of(mutable);</p>
-<p>staticfinalLogger logger =Logger.getLogger(MyClass.getName());</p>
-<p>staticfinalString[] nonEmptyArray = {“these”, “can”, “change”};</p>
-<h3 id="3-5-非常量字段名"><a href="#3-5-非常量字段名" class="headerlink" title="3.5 非常量字段名"></a>3.5 非常量字段名</h3><p>非常量字段名以lowerCamelCase风格的基础上改造为如下风格：基本结构为scopeVariableNameType。</p>
-<p><strong>scope：范围</strong></p>
-<p>非公有，非静态字段命名以m开头。</p>
-<p>静态字段命名以s开头。</p>
-<p>公有非静态字段命名以p开头。</p>
-<p>公有静态字段（全局变量）命名以g开头。</p>
-<p>例子：</p>
-<p>publicclassMyClass {</p>
-<pre><code>int mPackagePrivate;
-
-privateint mPrivate;
-
-protectedint mProtected;
-
-privatestaticMyClass sSingleton;
-
-publicint pField;
-
-publicstaticint gField;
-</code></pre><p>}</p>
-<p>使用1字符前缀来表示作用范围，1个字符的前缀必须小写，前缀后面是由表意性强的一个单词或多个单词组成的名字，而且每个单词的首写字母大写，其它字母小写，这样保证了对变量名能够进行正确的断句。</p>
-<p><strong>Type：类型</strong></p>
-<p>考虑到Android中使用很多UI控件，为避免控件和普通成员变量混淆以及更好达意，所有用来表示控件的成员变量统一加上控件缩写作为后缀（文末附有缩写表）。</p>
-<p>对于普通变量一般不添加类型后缀，如果统一添加类型后缀，请参考文末的缩写表。</p>
-<p>用统一的量词通过在结尾处放置一个量词，就可创建更加统一的变量，它们更容易理解，也更容易搜索。</p>
-<p>注意：如果项目中使用ButterKnife，则不添加m前缀，以lowerCamelCase风格命名。</p>
-<p>例如，请使用mCustomerStrFirst和mCustomerStrLast，而不要使用mFirstCustomerStr和mLastCustomerStr。</p>
-<table>
-<thead>
-<tr>
-<th><strong>量词列表</strong></th>
-<th><strong>量词后缀说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>First</td>
-<td>一组变量中的第一个</td>
-</tr>
-<tr>
-<td>Last</td>
-<td>一组变量中的最后一个</td>
-</tr>
-<tr>
-<td>Next</td>
-<td>一组变量中的下一个变量</td>
-</tr>
-<tr>
-<td>Prev</td>
-<td>一组变量中的上一个</td>
-</tr>
-<tr>
-<td>Cur</td>
-<td>一组变量中的当前变量</td>
-</tr>
-</tbody>
-</table>
-<p>说明：</p>
-<p>集合添加如下后缀：List、Map、Set 数组添加如下后缀：Arr</p>
-<p>注意：所有的VO（值对象）统一采用标准的lowerCamelCase风格编写，所有的DTO（数据传输对象）就按照接口文档中定义的字段名编写。</p>
-<h3 id="3-6-参数名"><a href="#3-6-参数名" class="headerlink" title="3.6 参数名"></a>3.6 参数名</h3><p>参数名以lowerCamelCase风格编写。 参数应该避免用单个字符命名。</p>
-<h3 id="3-7-局部变量名"><a href="#3-7-局部变量名" class="headerlink" title="3.7 局部变量名"></a>3.7 局部变量名</h3><p>局部变量名以lowerCamelCase风格编写，比起其它类型的名称，局部变量名可以有更为宽松的缩写。</p>
-<p>虽然缩写更宽松，但还是要避免用单字符进行命名，除了临时变量和循环变量。</p>
-<p>即使局部变量是final和不可改变的，也不应该把它示为常量，自然也不能用常量的规则去命名它。</p>
-<h3 id="3-8-临时变量"><a href="#3-8-临时变量" class="headerlink" title="3.8 临时变量"></a>3.8 临时变量</h3><p>临时变量通常被取名为i、j、k、m和n，它们一般用于整型；c、d、e，它们一般用于字符型。 如：for (int i = 0; i &lt; len ; i++)。</p>
-<h3 id="3-9-类型变量名"><a href="#3-9-类型变量名" class="headerlink" title="3.9 类型变量名"></a>3.9 类型变量名</h3><p>类型变量可用以下两种风格之一进行命名：</p>
-<ol>
-<li>单个的大写字母，后面可以跟一个数字(如：E, T, X, T2)。</li>
-<li>以类命名方式(参考 <a href="https://github.com/Blankj/AndroidStandardDevelop#32-%E7%B1%BB%E5%90%8D" target="_blank" rel="external">2 类名</a>)，后面加个大写的T(如：RequestT, FooBarT)。</li>
-</ol>
-<p>更多还可参考～** <a href="https://102.alibaba.com/newsInfo.htm?newsId=6" target="_blank" rel="external">阿里巴巴Java开发手册</a>**</p>
-<h2 id="4-资源文件规范"><a href="#4-资源文件规范" class="headerlink" title="4 资源文件规范"></a>4 资源文件规范</h2><h3 id="4-1-资源布局文件（XML文件（layout布局文件））"><a href="#4-1-资源布局文件（XML文件（layout布局文件））" class="headerlink" title="4.1 资源布局文件（XML文件（layout布局文件））"></a>4.1 资源布局文件（XML文件（layout布局文件））</h3><p>全部小写，采用下划线命名法</p>
-<h3 id="4-1-1-contentView命名"><a href="#4-1-1-contentView命名" class="headerlink" title="4.1.1 contentView命名"></a>4.1.1 contentView命名</h3><p>必须以全部单词小写，单词间以下划线分割，使用名词或名词词组。</p>
-<p>所有Activity或Fragment的contentView必须与其类名对应，对应规则为：将所有字母都转为小写，将类型和功能调换（也就是后缀变前缀）。</p>
-<p>例如：activity_main.xml</p>
-<h3 id="4-1-2-Dialog命名"><a href="#4-1-2-Dialog命名" class="headerlink" title="4.1.2 Dialog命名"></a>4.1.2 Dialog命名</h3><p>规则：dialog_描述.xml</p>
-<p>例如：dialog_hint.xml</p>
-<h3 id="4-1-3-PopupWindow命名"><a href="#4-1-3-PopupWindow命名" class="headerlink" title="4.1.3 PopupWindow命名"></a>4.1.3 PopupWindow命名</h3><p>规则：ppw_描述.xml</p>
-<p>例如：ppw_info.xml</p>
-<h3 id="4-1-4-列表项命名"><a href="#4-1-4-列表项命名" class="headerlink" title="4.1.4 列表项命名"></a>4.1.4 列表项命名</h3><p>规则：item_描述.xml</p>
-<p>例如：item_city.xml</p>
-<h3 id="4-1-5-包含项命名"><a href="#4-1-5-包含项命名" class="headerlink" title="4.1.5 包含项命名"></a>4.1.5 包含项命名</h3><p>规则：模块_(位置)描述.xml</p>
-<p>例如：activity_main_head.xml、activity_main_bottom.xml</p>
-<p>注意：通用的包含项命名采用：项目名称缩写_描述.xml</p>
-<p>例如：xxxx_title.xml</p>
-<h3 id="4-2-资源文件（图片drawable文件夹下）"><a href="#4-2-资源文件（图片drawable文件夹下）" class="headerlink" title="4.2 资源文件（图片drawable文件夹下）"></a>4.2 资源文件（图片drawable文件夹下）</h3><p>全部小写，采用下划线命名法，加前缀区分</p>
-<p>命名模式：可加后缀 _small 表示小图， _big 表示大图，逻辑名称可由多个单词加下划线组成，采用以下规则：</p>
-<ul>
-<li>用途_模块名_逻辑名称</li>
-<li>用途_模块名_颜色</li>
-<li>用途_逻辑名称</li>
-<li>用途_颜色</li>
-</ul>
-<p>说明：用途也指控件类型（具体见附录 <a href="https://github.com/Blankj/AndroidStandardDevelop#ui%E6%8E%A7%E4%BB%B6%E7%BC%A9%E5%86%99%E8%A1%A8" target="_blank" rel="external">UI控件缩写表</a>）</p>
-<p>例如：</p>
-<table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>btn_main_home.png</td>
-<td>按键用途_模块名_逻辑名称</td>
-</tr>
-<tr>
-<td>divider_maket_white.png</td>
-<td>分割线用途_模块名_颜色</td>
-</tr>
-<tr>
-<td>ic_edit.png</td>
-<td>图标用途_逻辑名称</td>
-</tr>
-<tr>
-<td>bg_main.png</td>
-<td>背景用途_逻辑名称</td>
-</tr>
-<tr>
-<td>btn_red.png</td>
-<td>红色按键用途_颜色</td>
-</tr>
-<tr>
-<td>btn_red_big.png</td>
-<td>红色大按键用途_颜色</td>
-</tr>
-<tr>
-<td>ic_head_small.png</td>
-<td>小头像用途_逻辑名称</td>
-</tr>
-<tr>
-<td>bg_input.png</td>
-<td>输入框背景用途_逻辑名称</td>
-</tr>
-<tr>
-<td>divider_white.png</td>
-<td>白色分割线用途_颜色</td>
-</tr>
-<tr>
-<td>bg_main_head</td>
-<td>主模块头部背景图片用途_模块名_逻辑名称</td>
-</tr>
-<tr>
-<td>def_search_cell</td>
-<td>默认搜索界面单元图片用途_模块名_逻辑名称</td>
-</tr>
-<tr>
-<td>ic_more_help</td>
-<td>更多帮助图标用途_逻辑名称</td>
-</tr>
-<tr>
-<td>divider_list_line</td>
-<td>列表分割线用途_逻辑名称</td>
-</tr>
-<tr>
-<td>sel_search_ok</td>
-<td>搜索界面确认选择器用途_模块名_逻辑名称</td>
-</tr>
-<tr>
-<td>shape_music_ring</td>
-<td>音乐界面环形形状用途_模块名_逻辑名称</td>
-</tr>
-</tbody>
-</table>
-<p>如果有多种形态，如按钮选择器：sel_btn_xx.xml</p>
-<table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>sel_btn_xx</td>
-<td>按钮图片使用btn_整体效果（selector）</td>
-</tr>
-<tr>
-<td>btn_xx_normal</td>
-<td>按钮图片使用btn_正常情况效果</td>
-</tr>
-<tr>
-<td>btn_xx_pressed</td>
-<td>按钮图片使用btn_点击时候效果</td>
-</tr>
-<tr>
-<td>btn_xx_focused</td>
-<td>state_focused聚焦效果</td>
-</tr>
-<tr>
-<td>btn_xx_disabled</td>
-<td>state_enabled (false)不可用效果</td>
-</tr>
-<tr>
-<td>btn_xx_checked</td>
-<td>state_checked选中效果</td>
-</tr>
-<tr>
-<td>btn_xx_selected</td>
-<td>state_selected选中效果</td>
-</tr>
-<tr>
-<td>btn_xx_hovered</td>
-<td>state_hovered悬停效果</td>
-</tr>
-<tr>
-<td>btn_xx_checkable</td>
-<td>state_checkable可选效果</td>
-</tr>
-<tr>
-<td>btn_xx_activated</td>
-<td>state_activated激活的</td>
-</tr>
-<tr>
-<td>btn_xx_windowfocused</td>
-<td>state_window_focused</td>
-</tr>
-</tbody>
-</table>
-<p>注意：使用AndroidStudio的插件SelectorChapek可以快速生成selector，前提是命名要规范。</p>
-<h3 id="4-3-动画文件（anim文件夹下）"><a href="#4-3-动画文件（anim文件夹下）" class="headerlink" title="4.3 动画文件（anim文件夹下）"></a>4.3 动画文件（anim文件夹下）</h3><p>全部小写，采用下划线命名法，加前缀区分。</p>
-<p>具体动画采用以下规则：模块名_逻辑名称。</p>
-<p>例如：refresh_progress.xml、market_cart_add.xml、market_cart_remove.xml。</p>
-<p>普通的tween动画采用如下表格中的命名方式：动画类型_方向</p>
-<table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>fade_in</td>
-<td>淡入</td>
-</tr>
-<tr>
-<td>fade_out</td>
-<td>淡出</td>
-</tr>
-<tr>
-<td>push_down_in</td>
-<td>从下方推入</td>
-</tr>
-<tr>
-<td>push_down_out</td>
-<td>从下方推出</td>
-</tr>
-<tr>
-<td>push_left</td>
-<td>推向左方</td>
-</tr>
-<tr>
-<td>slide_in_from_top</td>
-<td>从头部滑动进入</td>
-</tr>
-<tr>
-<td>zoom_enter</td>
-<td>变形进入</td>
-</tr>
-<tr>
-<td>slide_in</td>
-<td>滑动进入</td>
-</tr>
-<tr>
-<td>shrink_to_middle</td>
-<td>中间缩小</td>
-</tr>
-</tbody>
-</table>
-<h3 id="4-4-values中name命名"><a href="#4-4-values中name命名" class="headerlink" title="4.4 values中name命名"></a>4.4 values中name命名</h3><h3 id="4-4-1-colors-xml"><a href="#4-4-1-colors-xml" class="headerlink" title="4.4.1 colors.xml"></a>4.4.1 colors.xml</h3><p>colors.xml的name命名使用下划线命名法，在你的colors.xml文件中应该只是映射颜色的名称一个ARGB值，而没有其它的。不要使用它为不同的按钮来定义ARGB值。</p>
-<p><strong>不要这样做</strong></p>
-  <resources><br><br>      <colorname="button\_foreground">#FFFFFF<br><br>      <colorname="button\_background">#2A91BD<br><br>      <colorname="comment\_background\_inactive">#5F5F5F<br><br>      <colorname="comment\_background\_active">#939393<br><br>      <colorname="comment\_foreground">#FFFFFF<br><br>      <colorname="comment\_foreground\_important">#FF9D2F<br><br>      …<br><br>      <colorname="comment\_shadow">#323232<br><br>使用这种格式，你会非常容易的开始重复定义ARGB值，这使如果需要改变基本色变的很复杂。同时，这些定义是跟一些环境关联起来的，如button或者comment, 应该放到一个按钮风格中，而不是在colors.xml文件中。<br><br><strong>相反，这样做</strong><br><br>  <resources><br><br>      <!-- grayscale --><br><br>      <colorname="white">#FFFFFF<br><br>      <colorname="gray\_light">#DBDBDB<br><br>      <colorname="gray">#939393<br><br>      <colorname="gray\_dark">#5F5F5F<br><br>      <colorname="black">#323232<br><br>      <!-- basic colors --><br><br>      <colorname="green">#27D34D<br><br>      <colorname="blue">#2A91BD<br><br>      <colorname="orange">#FF9D2F<br><br>      <colorname="red">#FF432F<br><br>  </colorname="red"></colorname="orange"></colorname="blue"></colorname="green"></colorname="black"></colorname="gray\_dark"></colorname="gray"></colorname="gray\_light"></colorname="white"></resources>
-
-<p>向应用设计者那里要这个调色板，名称不需要跟”green”、”blue”等等相同。”brand_primary”、”brand_secondary”、”brand_negative”这样的名字也是完全可以接受的。 像这样规范的颜色很容易修改或重构，会使应用一共使用了多少种不同的颜色变得非常清晰。 通常一个具有审美价值的UI来说，减少使用颜色的种类是非常重要的。</p>
-<p>注意：如果某些颜色和主题有关，那就单独写一个colors_theme.xml。</p>
-<h3 id="4-4-2-dimens-xml"><a href="#4-4-2-dimens-xml" class="headerlink" title="4.4.2 dimens.xml"></a>4.4.2 dimens.xml</h3><p>像对待colors.xml一样对待dimens.xml文件 与定义颜色调色板一样，你同时也应该定义一个空隙间隔和字体大小的”调色板”。 一个好的例子，如下所示：</p>
-<resources><br><br>    <!-- font sizes --><br><br>    <dimenname="font\_larger">22sp<br><br>    <dimenname="font\_large">18sp<br><br>    <dimenname="font\_normal">15sp<br><br>    <dimenname="font\_small">12sp<br><br>    <!-- typical spacing between two views --><br><br>    <dimenname="spacing\_huge">40dp<br><br>    <dimenname="spacing\_large">24dp<br><br>    <dimenname="spacing\_normal">14dp<br><br>    <dimenname="spacing\_small">10dp<br><br>    <dimenname="spacing\_tiny">4dp<br><br>    <!-- typical sizes of views --><br><br>    <dimenname="button\_height\_tall">60dp<br><br>    <dimenname="button\_height\_normal">40dp<br><br>    <dimenname="button\_height\_short">32dp<br><br></dimenname="button\_height\_short"></dimenname="button\_height\_normal"></dimenname="button\_height\_tall"></dimenname="spacing\_tiny"></dimenname="spacing\_small"></dimenname="spacing\_normal"></dimenname="spacing\_large"></dimenname="spacing\_huge"></dimenname="font\_small"></dimenname="font\_normal"></dimenname="font\_large"></dimenname="font\_larger"></resources>
-
-<p>布局时在写margins和paddings时，你应该使用spacing_xxxx尺寸格式来布局，而不是像对待string字符串一样直接写值。 这样写会非常有感觉，会使组织和改变风格或布局是非常容易。</p>
-<h3 id="4-4-3-strings-xml"><a href="#4-4-3-strings-xml" class="headerlink" title="4.4.3 strings.xml"></a>4.4.3 strings.xml</h3><p>strings的name命名使用下划线命名法，采用以下规则：模块名+逻辑名称，这样方便同一个界面的所有string都放到一起，方便查找。</p>
-<table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>main_menu_about</td>
-<td>主菜单按键文字</td>
-</tr>
-<tr>
-<td>friend_title</td>
-<td>好友模块标题栏</td>
-</tr>
-<tr>
-<td>friend_dialog_del</td>
-<td>好友删除提示</td>
-</tr>
-<tr>
-<td>login_check_email</td>
-<td>登录验证</td>
-</tr>
-<tr>
-<td>dialog_title</td>
-<td>弹出框标题</td>
-</tr>
-<tr>
-<td>button_ok</td>
-<td>确认键</td>
-</tr>
-<tr>
-<td>loading</td>
-<td>加载文字</td>
-</tr>
-</tbody>
-</table>
-<h3 id="4-4-4-styles-xml"><a href="#4-4-4-styles-xml" class="headerlink" title="4.4.4 styles.xml"></a>4.4.4 styles.xml</h3><p>style的name命名使用大驼峰命名法，几乎每个项目都需要适当的使用style文件，因为对于一个视图来说有一个重复的外观是很常见的，将所有的外观细节属性（colors、padding、font）放在style文件中。 在应用中对于大多数文本内容，最起码你应该有一个通用的style文件，例如：</p>
-<style name="ContentText">
-
-    <item name="android:textSize">@dimen/font\_normal</item>
-
-    <item name="android:textColor">@color/basic\_black</item>
-
-</style>
-
-<p>应用到TextView中:</p>
-<textview android:layout\_width="wrap\_content" android:layout\_height="wrap\_content" android:text="@string/price" style="@style/ContentText">
-
-<p>你或许需要为按钮控件做同样的事情，不要停止在那里。将一组相关的和重复android:****的属性放到一个通用的style中。</p>
-<p><strong>将一个大的**</strong> styles.xml <strong>**文件分割成多个文件</strong> ， 你可以有多个styles.xml 文件。Android SDK支持其它文件，styles.xml这个文件名称并没有作用，起作用的是在文件里的<style>标签。因此你可以有多个style文件，如styles.xml、styles_home.xml、styles_item_details.xml、styles_forms.xml。 不同于资源文件路径需要为系统构建起的有意义，在res/values目录下的文件可以任意命名。</p>
-<h3 id="4-5-layout中的id命名"><a href="#4-5-layout中的id命名" class="headerlink" title="4.5 layout中的id命名"></a>4.5 layout中的id命名</h3><p>命名模式为：view缩写_模块名_逻辑名，比如btn_main_search 使用AndroidStudio的插件ButterKnife Zelezny，生成注解非常方便，原生的话可以使用Android Code Generator插件。</p>
-<p>如果想对资源文件进行分包可以参考我这篇文章～** <a href="http://www.jianshu.com/p/8e893581b9c7">Android Studio下对资源进行分包</a>**</p>
-<h2 id="5-版本统一规范"><a href="#5-版本统一规范" class="headerlink" title="5 版本统一规范"></a>5 版本统一规范</h2><p>Android开发存在着众多版本的不同，比如compileSdkVersion、minSdkVersion、targetSdkVersion以及项目中依赖第三方库的版本，不同的module及不同的开发人员都有不同的版本，所以需要一个统一版本规范的文件。</p>
-<p>具体可以参考我写的这篇博文～** <a href="http://www.jianshu.com/p/db6ef4cfa5d1">Android开发之版本统一规范</a>**</p>
-<h2 id="6-第三方库规范"><a href="#6-第三方库规范" class="headerlink" title="6 第三方库规范"></a>6 第三方库规范</h2><p>别再闭门造车了，用用最新最火的技术吧，安利一波～** <a href="http://www.ctolib.com/cheatsheets-Android-ch.html">Android 流行框架查速表</a> <strong>，顺便带上自己的干货～</strong> <a href="https://github.com/Blankj/AndroidUtilCode">Android开发人员不得不收集的代码</a>**</p>
-<p>希望Team能用时下较新的技术，对开源库的选取，一般都需要选择比较稳定的版本，作者在维护的项目，要考虑作者对issue的解决，以及开发者的知名度等各方面。选取之后，一定的封装是必要的。</p>
-<p>个人推荐Team可使用如下优秀轮子：</p>
-<ul>
-<li><a href="https://github.com/square/retrofit"><strong>Retrofit</strong></a></li>
-<li><a href="https://github.com/ReactiveX/RxAndroid"><strong>RxAndroid</strong></a></li>
-<li><a href="https://github.com/square/okhttp"><strong>OkHttp</strong></a></li>
-<li><a href="https://github.com/bumptech/glide"><strong>Glide</strong></a> /  <a href="https://github.com/facebook/fresco"><strong>Fresco</strong></a></li>
-<li><a href="https://github.com/google/gson"><strong>Gson</strong></a> /  <a href="https://github.com/alibaba/fastjson"><strong>Fastjson</strong></a></li>
-<li><a href="https://github.com/greenrobot/EventBus"><strong>EventBus</strong></a> /  <a href="https://github.com/bboyfeiyu/AndroidEventBus"><strong>AndroidEventBus</strong></a></li>
-<li><a href="https://github.com/greenrobot/greenDAO"><strong>GreenDao</strong></a></li>
-<li><a href="https://github.com/google/dagger"><strong>Dagger2</strong></a>(选用)</li>
-<li><a href="https://github.com/Tencent/tinker"><strong>Tinker</strong></a>(选用)</li>
-</ul>
-<h2 id="7-注释规范"><a href="#7-注释规范" class="headerlink" title="7 注释规范"></a>7 注释规范</h2><p>为了减少他人阅读你代码的痛苦值，请在关键地方做好注释。</p>
-<h3 id="7-1-类注释"><a href="#7-1-类注释" class="headerlink" title="7.1 类注释"></a>7.1 类注释</h3><p>每个类完成后应该有作者姓名和联系方式的注释，对自己的代码负责。</p>
-<p>/**</p>
-<p> * <pre></p>
-<p> *     author : Blankj</p>
-<p> *     e-mail : xxx@xx</p>
-<p> *     time   : 2017/03/07</p>
-<p> *     desc   : xxxx描述</p>
-<p> *     version: 1.0</p>
-<p> * </pre></p>
-<p> */</p>
-<p>publicclassWelcomeActivity {</p>
-<pre><code>...
-</code></pre><p>}</p>
-<p>具体可以在AS中自己配制，Settings → Editor → File and Code Templates → Includes → File Header，输入</p>
-<p>/**</p>
-<p> * <pre></p>
-<p> *     author : ${USER}</p>
-<p> *     e-mail : xxx@xx</p>
-<p> *     time   : ${YEAR}/${MONTH}/${DAY}</p>
-<p> *     desc   :</p>
-<p> *     version: 1.0</p>
-<p> * </pre></p>
-<p> */</p>
-<p>这样便可在每次新建类的时候自动加上该头注释。</p>
-<h3 id="7-2-方法注释"><a href="#7-2-方法注释" class="headerlink" title="7.2 方法注释"></a>7.2 方法注释</h3><p>每一个成员方法（包括自定义成员方法、覆盖方法、属性方法）的方法头都必须做方法头注释，在方法前一行输入/** + 回车或者设置Fix doc comment(Settings → Keymap → Fix doc comment)快捷键，AS便会帮你生成模板，我们只需要补全参数即可，如下所示。</p>
-<p>/**</p>
-<p> * bitmap转byteArr</p>
-<p> *</p>
-<p> * @param bitmap bitmap对象</p>
-<p> * @param format 格式</p>
-<p> * @return 字节数组</p>
-<p> */</p>
-<p>publicstaticbyte[] bitmap2Bytes(Bitmap bitmap, CompressFormat format) {</p>
-<pre><code>if (bitmap ==null) returnnull;
-
-ByteArrayOutputStream baos =newByteArrayOutputStream();
-
-bitmap.compress(format, 100, baos);
-
-return baos.toByteArray();
-</code></pre><p>}</p>
-<h3 id="7-3-块注释"><a href="#7-3-块注释" class="headerlink" title="7.3 块注释"></a>7.3 块注释</h3><p>块注释与其周围的代码在同一缩进级别。它们可以是/* … */风格，也可以是// …风格( <strong>//**</strong> 后最好带一个空格<em>*）。对于多行的/\</em> … */注释，后续行必须从*开始， 并且与前一行的*对齐。以下示例注释都是OK的。</p>
-<p>/*</p>
-<p> * This is          // And so           /* Or you can</p>
-<p> * okay.            // is this.          * even do this. */</p>
-<p> */</p>
-<p>注释不要封闭在由星号或其它字符绘制的框架里。</p>
-<p>Tip：在写多行注释时，如果你希望在必要时能重新换行(即注释像段落风格一样)，那么使用/* … */。</p>
-<h3 id="7-4-其他一些注释"><a href="#7-4-其他一些注释" class="headerlink" title="7.4 其他一些注释"></a>7.4 其他一些注释</h3><p>AS已帮你集成了一些注释模板，我们只需要直接使用即可，在代码中输入todo、fixme等这些注释模板，回车后便会出现如下注释</p>
-<p>// TODO: 17/3/14 需要实现，但目前还未实现的功能的说明</p>
-<p>// FIXME: 17/3/14 需要修正，甚至代码是错误的，不能工作，需要修复的说明</p>
-<h2 id="8-测试规范"><a href="#8-测试规范" class="headerlink" title="8 测试规范"></a>8 测试规范</h2><p>业务开发完成之后，开发人员做单元测试，单元测试完成之后，保证单元测试全部通过同时单元测试代码覆盖率达到一定程度（这个需要开发和测试约定，理论上越高越好），开发提测。</p>
-<p>// TODO…</p>
-<h2 id="9-RN规范"><a href="#9-RN规范" class="headerlink" title="9 RN规范"></a>9 RN规范</h2><p>// TODO…</p>
-<h2 id="10-其他的一些规范"><a href="#10-其他的一些规范" class="headerlink" title="10 其他的一些规范"></a>10 其他的一些规范</h2><p>  <strong> 注：</strong></p>
-<ol>
-<li><strong>所有类的说明都加在**</strong> manifests中， <strong>**方便后期查看</strong></li>
-<li><strong>遇到接手的老项目，修改过的类，需要把这个类的类注释，以及修改方法部分注释补全</strong><br>3.</li>
-<li>合理布局，有效运用<merge>、<ViewStub>、<include>标签；</li>
-<li>Activity和Fragment里面有许多重复的操作以及操作步骤，所以我们都需要提供一个BaseActivity和BaseFragment，让所有的Activity和Fragment都继承这个基类。</li>
-<li>方法基本上都按照调用的先后顺序在各自区块中排列；</li>
-<li>相关功能作为小区块放在一起（或者封装掉）；</li>
-<li>当一个类有多个构造函数，或是多个同名方法，这些函数/方法应该按顺序出现在一起，中间不要放进其它函数/方法；</li>
-<li>数据提供统一的入口。无论是在 MVP、MVC 还是 MVVM 中，提供一个统一的数据入口，都可以让代码变得更加易于维护。比如可使用一个DataManager，把 http、preference、eventpost、database 都放在DataManger里面进行操作，我们只需要与DataManger打交道；</li>
-<li>多用组合, 少用继承；</li>
-<li>提取方法, 去除重复代码。对于必要的工具类抽取也很重要，这在以后的项目中是可以重用的。</li>
-<li>可引入 Dagger2 减少模块之间的耦合性。Dagger2 是一个依赖注入框架，使用代码自动生成创建依赖关系需要的代码。减少很多模板化的代码，更易于测试，降低耦合，创建可复用可互换的模块；</li>
-<li>项目引入RxJava + RxAndroid这些响应式编程，可以极大的减少逻辑代码；</li>
-<li>通过引入事件总线，如：EventBus、AndroidEventBus、RxBus，它允许我们在DataLayer中发送事件，以便ViewLayer中的多个组件都能够订阅到这些事件，减少回调；</li>
-<li>尽可能使用局部变量；</li>
-<li>及时关闭流；</li>
-<li>尽量减少对变量的重复计算；</li>
-</ol>
-<p>如下面的操作：</p>
-<p>for (int i =0; i &lt; list.size(); i++) {</p>
-<pre><code>...
-</code></pre><p>}</p>
-<p>建议替换为：</p>
-<p>for (int i =0, int length = list.size(); i &lt; length; i++) {</p>
-<pre><code>...
-</code></pre><p>}</p>
-<ol>
-<li>尽量采用懒加载的策略，即在需要的时候才创建；</li>
-</ol>
-<p>例如：</p>
-<p>String str =”aaa”;</p>
-<p>if (i ==1) {</p>
-<pre><code>list.add(str);
-</code></pre><p>}</p>
-<p>建议替换为：</p>
-<p>if (i ==1) {</p>
-<pre><code>String str =&quot;aaa&quot;;
-
-list.add(str);
-</code></pre><p>}</p>
-<ol>
-<li>不要在循环中使用try…catch…，应该把其放在最外层；</li>
-<li>使用带缓冲的输入输出流进行IO操作；</li>
-<li>尽量使用HashMap、ArrayList、StringBuilder，除非线程安全需要，否则不推荐使用Hashtable、Vector、StringBuffer，后三者由于使用同步机制而导致了性能开销；</li>
-<li>尽量在合适的场合使用单例；</li>
-</ol>
-<p>使用单例可以减轻加载的负担、缩短加载的时间、提高加载的效率，但并不是所有地方都适用于单例，简单来说，单例主要适用于以下三个方面：</p>
-<p>（1）控制资源的使用，通过线程同步来控制资源的并发访问</p>
-<p>（2）控制实例的产生，以达到节约资源的目的</p>
-<p>（3）控制数据的共享，在不建立直接关联的条件下，让多个不相关的进程或线程之间实现通信</p>
-<ol>
-<li>把一个基本数据类型转为字符串，基本数据类型.toString()是最快的方式、String.valueOf(数据)次之、数据 + “”最慢；</li>
-<li>使用AS自带的Lint来优化代码结构（什么，你不会？右键module、目录或者文件，选择Analyze → Inspect Code）；</li>
-<li>最后不要忘了内存泄漏的检测；</li>
-</ol>
-<p>最后啰嗦几句：</p>
-<ul>
-<li>好的命名规则能够提高代码质量，使得新人加入项目的时候降低理解代码的难度；</li>
-<li>规矩终究是死的，适合团队的才是最好的；</li>
-<li>命名规范需要团队一起齐心协力来维护执行，在团队生活里，谁都不可能独善其身；</li>
-<li>一开始可能会有些不习惯，持之以恒，总会成功的。</li>
-</ul>
-<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><h3 id="UI控件缩写表"><a href="#UI控件缩写表" class="headerlink" title="UI控件缩写表"></a>UI控件缩写表</h3><table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>缩写</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>TextView</td>
-<td>tv</td>
-</tr>
-<tr>
-<td>EditText</td>
-<td>et</td>
-</tr>
-<tr>
-<td>ImageButton</td>
-<td>ib</td>
-</tr>
-<tr>
-<td>Button</td>
-<td>btn</td>
-</tr>
-<tr>
-<td>ImageView</td>
-<td>iv</td>
-</tr>
-<tr>
-<td>ListView</td>
-<td>lv</td>
-</tr>
-<tr>
-<td>GridView</td>
-<td>gv</td>
-</tr>
-<tr>
-<td>ProgressBar</td>
-<td>pb</td>
-</tr>
-<tr>
-<td>SeekBar</td>
-<td>sb</td>
-</tr>
-<tr>
-<td>RadioButtion</td>
-<td>rb</td>
-</tr>
-<tr>
-<td>CheckBox</td>
-<td>cb</td>
-</tr>
-<tr>
-<td>ScrollView</td>
-<td>sv</td>
-</tr>
-<tr>
-<td>LinearLayout</td>
-<td>ll</td>
-</tr>
-<tr>
-<td>FrameLayout</td>
-<td>fl</td>
-</tr>
-<tr>
-<td>RelativeLayout</td>
-<td>rl</td>
-</tr>
-<tr>
-<td>RecyclerView</td>
-<td>rv</td>
-</tr>
-<tr>
-<td>WebView</td>
-<td>wv</td>
-</tr>
-<tr>
-<td>VideoView</td>
-<td>vv</td>
-</tr>
-<tr>
-<td>Spinner</td>
-<td>spn</td>
-</tr>
-<tr>
-<td>ToggleButton</td>
-<td>tb</td>
-</tr>
-</tbody>
-</table>
-<h3 id="常见的英文单词缩写表"><a href="#常见的英文单词缩写表" class="headerlink" title="常见的英文单词缩写表"></a>常见的英文单词缩写表</h3><table>
-<thead>
-<tr>
-<th><strong>名称</strong></th>
-<th><strong>缩写</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>icon</td>
-<td>ic （主要用在app的图标）</td>
-</tr>
-<tr>
-<td>color</td>
-<td>cl（主要用于颜色值）</td>
-</tr>
-<tr>
-<td>average</td>
-<td>Avg</td>
-</tr>
-<tr>
-<td>background</td>
-<td>bg（主要用于布局和子布局的背景）</td>
-</tr>
-<tr>
-<td>selector</td>
-<td>sel主要用于某一view多种状态，不仅包括Listview中的selector，还包括按钮的selector）</td>
-</tr>
-<tr>
-<td>buffer</td>
-<td>Buf</td>
-</tr>
-<tr>
-<td>control</td>
-<td>Ctrl</td>
-</tr>
-<tr>
-<td>default</td>
-<td>Def</td>
-</tr>
-<tr>
-<td>delete</td>
-<td>Del</td>
-</tr>
-<tr>
-<td>document</td>
-<td>Doc</td>
-</tr>
-<tr>
-<td>error</td>
-<td>Err</td>
-</tr>
-<tr>
-<td>escape</td>
-<td>Esc</td>
-</tr>
-<tr>
-<td>increment</td>
-<td>Inc</td>
-</tr>
-<tr>
-<td>infomation</td>
-<td>Info</td>
-</tr>
-<tr>
-<td>initial</td>
-<td>Init</td>
-</tr>
-<tr>
-<td>image</td>
-<td>Img</td>
-</tr>
-<tr>
-<td>Internationalization</td>
-<td>I18N</td>
-</tr>
-<tr>
-<td>length</td>
-<td>Len</td>
-</tr>
-<tr>
-<td>library</td>
-<td>Lib</td>
-</tr>
-<tr>
-<td>message</td>
-<td>Msg</td>
-</tr>
-<tr>
-<td>password</td>
-<td>Pwd</td>
-</tr>
-<tr>
-<td>position</td>
-<td>Pos</td>
-</tr>
-<tr>
-<td>server</td>
-<td>Srv</td>
-</tr>
-<tr>
-<td>string</td>
-<td>Str</td>
-</tr>
-<tr>
-<td>temp</td>
-<td>Tmp</td>
-</tr>
-<tr>
-<td>window</td>
-<td>wnd(win)</td>
-</tr>
-</tbody>
-</table>
-<p>程序中使用单词缩写原则：不要用缩写，除非该缩写是约定俗成的。</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://www.ayqy.net/blog/android%E5%8C%85%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/">Android包命名规范</a></p>
-<p><a href="https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md">Android 开发最佳实践</a></p>
-<p><a href="http://www.jianshu.com/p/0a984f999592">Android 编码规范</a></p>
-<p><a href="https://102.alibaba.com/newsInfo.htm?newsId=6">阿里巴巴Java开发手册</a></p>
-<p><a href="http://www.hawstein.com/posts/google-java-style.html">Google Java编程风格指南</a></p>
-<p><a href="http://www.jianshu.com/p/436943216526">小细节，大用途，35 个 Java 代码性能优化总结！</a></p>
-<p><a href="http://blankj.com/2017/03/08/android-standard-dev-updating/">http://blankj.com/2017/03/08/android-standard-dev-updating/</a></p>
-</style></p></textview></colorname="comment\_shadow"></colorname="comment\_foreground\_important"></colorname="comment\_foreground"></colorname="comment\_background\_active"></colorname="comment\_background\_inactive"></colorname="button\_background"></colorname="button\_foreground"></resources>
           
+1 前言为了利于项目维护以及规范开发，促进成员之间Code Review的效率，故提出以下开发规范，如有更好建议，请小组会议提出。
+2 AS规范工欲善其事，必先利其器。
+
+尽量使用最新版的IDE进行开发；
+编码格式统一为 UTF-8 ；
+编辑完.java、 .xml等文件后一定要 格式化 （基本格
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/06/12/一嗨Android开发规范/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1725,6 +468,28 @@ list.add(str);
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -1751,371 +516,16 @@ list.add(str);
       
         
           
-            <h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><ul>
-<li>为了让代码更加整洁，团队配合更加顺畅，制定开发规范文档，请 iOS 开发同学仔细阅读本文档，并在日常开发过程中遵守本文档中的约定。本规范文档结合 <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html" target="_blank" rel="external">Apple’s Guide</a>、<a href="https://google.github.io/styleguide/objcguide.xml" target="_blank" rel="external">Google’s OC Guide</a> ，以及行业内比较知名的编码规范和开发团队的经验总结而制定，例如 <a href="https://github.com/github/objective-c-style-guide" target="_blank" rel="external">Github’s Guide</a>、<a href="https://github.com/raywenderlich/objective-c-style-guide" target="_blank" rel="external">Raywenderlich’s Guide</a> ，有不完善和不合理的地方后期会持续修改增删。</li>
-</ul>
-<h2 id="二、项目目录"><a href="#二、项目目录" class="headerlink" title="二、项目目录"></a>二、项目目录</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line">|- AppDelegate	// 目录下放的是AppDelegate.h(.m)文件，是整个应用的入口文件，所以单独拿出来</div><div class="line">|- Models		// App内的主要model，比如UserModel会在多个类中出现</div><div class="line">|- Features		// 功能模块目录     </div><div class="line">    |- Base             // 定义本项目中各种Controller、View、Model的基础类或基础接口。</div><div class="line">	    |- Models       // 数据模型</div><div class="line">        |- Views        // 视图</div><div class="line">        |- Controllers  // 控制器</div><div class="line">    |- Home</div><div class="line">        |- Models       </div><div class="line">        |- Views       </div><div class="line">        |- Controllers    </div><div class="line">    |- UserCenter</div><div class="line">        |- Models       </div><div class="line">        |- Views       </div><div class="line">        |- Controllers</div><div class="line">	...</div><div class="line">|- Macro 		// 整个应用会用到的宏定义</div><div class="line">	|- AppMacro.h          // app相关的宏定义</div><div class="line">    |- NotificationMacro.h // 通知相关的宏定义</div><div class="line">    |- VendorMacro.h       // 一些第三方的常量</div><div class="line">    |- UtilsMacro.h        // 一些方便使用的宏定义</div><div class="line">|- General      // 存放会被重用的Views、Classes、Categories</div><div class="line">    |- Views</div><div class="line">    |- Classes</div><div class="line">    |- Categories</div><div class="line">|- Helpers      // 帮助类。包含网络，数据库，定位等操作类的封装和实现</div><div class="line">	|- NetWork</div><div class="line">    |- Coredata</div><div class="line">    |- Location</div><div class="line">|- Vendors		// 第三方的类库/SDK。部分需要修改或者不支持cocoapod的第三方的框架引入</div><div class="line">|- Resources  	// 资源文件。包含图片、声音、文件（.plist/.json/.ttc）</div><div class="line">	|- Images</div><div class="line">	|- Sounds</div><div class="line">	|- Files</div></pre></td></tr></table></figure>
-<h2 id="三、代码格式"><a href="#三、代码格式" class="headerlink" title="三、代码格式"></a>三、代码格式</h2><h3 id="3-1-语言"><a href="#3-1-语言" class="headerlink" title="3.1 语言"></a>3.1 语言</h3><p>应该使用 US 英语。</p>
-<p>应该:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UIColor *myColor = [UIColor whiteColor];</div></pre></td></tr></table></figure></p>
-<p>不应该:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UIColor *myColour = [UIColor whiteColor];</div></pre></td></tr></table></figure></p>
-<h3 id="3-2-空格和换行"><a href="#3-2-空格和换行" class="headerlink" title="3.2 空格和换行"></a>3.2 空格和换行</h3><ol>
-<li>使用 <code>Tab</code> 符号，而非空格。首行缩进一个 Tab ，即 4 个空格；</li>
-<li>使用换行符结束一个文件；</li>
-<li>方法大括号和其他大括号（<code>if</code>/<code>else</code>/<code>switch</code>/<code>while</code>/<code>for</code> 等）总是在同一行语句打开但在新行中关闭；</li>
-<li>合理的使用空格将代码划分为逻辑块，例如 <code>if</code> 语句、  <code>for</code> 循环、三元操作符。</li>
-</ol>
-<p>应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">for (int i = 0; i &lt; 10; i++) &#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>不应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">for(int i=0;i&lt;10;i ++)&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ol>
-<li>在方法之间应该有且只有一行，这样有利于在视觉上更清晰和更易于组织。在方法内的空白应该分离功能，但通常都抽离出来成为一个新方法；</li>
-<li>优先使用 auto-synthesis 。但如果有必要，<code>@synthesize</code> 和 <code>@dynamic</code> 应该在实现中每个都声明新的一行。</li>
-</ol>
-<h3 id="3-3-每一行的最大长度"><a href="#3-3-每一行的最大长度" class="headerlink" title="3.3 每一行的最大长度"></a>3.3 每一行的最大长度</h3><p>过长的一行代码将会导致可读性问题，一些规范建议为 80 。</p>
-<p>一些常用的如 UITableView 的方法长度就大于 80 ，建议注释上强制要求，方法上不强制。</p>
-<p>可以在 <strong>Xcode &gt; Preferences &gt; Text Editing &gt; Page guide at column</strong> 中将最大行长设置为  80 。 </p>
-<h3 id="3-4-Case语句"><a href="#3-4-Case语句" class="headerlink" title="3.4 Case语句"></a>3.4 Case语句</h3><ul>
-<li>大括号在 <code>case</code> 语句中并不是必须的，除非编译器强制要求；</li>
-<li>当一个 <code>case</code> 语句包含多行代码时，大括号应该加上；</li>
-<li><code>break</code> 放在大括号 <code>}</code> 外。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">switch (condition) &#123;</div><div class="line">  case 1:</div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">  case 2: &#123;</div><div class="line">    // ...</div><div class="line">    // Multi-line example using braces</div><div class="line"> &#125;</div><div class="line">    break;</div><div class="line">  case 3:</div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">  default: </div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>有很多次，当相同代码被多个 cases 使用时，一个 <code>fall-through</code> 应该被使用。一个 <code>fall-through</code> 就是在 <code>case</code> 最后移除 <code>break</code> 语句，这样就能够允许执行流程跳转到下一个 <code>case</code> 值。为了代码更加清晰，一个 fall-through 需要注释一下。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">switch (condition) &#123;</div><div class="line">  case 1:</div><div class="line">    // ** fall-through! **</div><div class="line">  case 2:</div><div class="line">    // code executed for values 1 and 2</div><div class="line">    break;</div><div class="line">  default: </div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>当在 switch 使用枚举类型时，<code>default</code> 是不需要的。例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">RWTLeftMenuTopItemType menuType = RWTLeftMenuTopItemMain;</div><div class="line"></div><div class="line">switch (menuType) &#123;</div><div class="line">  case RWTLeftMenuTopItemMain:</div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">  case RWTLeftMenuTopItemShows:</div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">  case RWTLeftMenuTopItemSchedule:</div><div class="line">    // ...</div><div class="line">    break;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="3-5-布尔值"><a href="#3-5-布尔值" class="headerlink" title="3.5 布尔值"></a>3.5 布尔值</h3><ol>
-<li>Objective-C 使用 <code>YES</code> 和 <code>NO</code> 。因为 <code>true</code> 和 <code>false</code> 应该只在 CoreFoundation，C 或 C++ 代码使用；</li>
-<li>既然 <code>nil</code> 解析成 <code>NO</code> ，所以没有必要在条件语句比较；</li>
-<li>不要拿某样东西直接与 <code>YES</code> 比较，因为 <code>YES</code> 被定义为 1，而一个 <code>BOOL</code> 能被设置为 8 位。</li>
-</ol>
-<p>这是为了在不同文件保持一致性和在视觉上更加简洁而考虑。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">if (someObject) &#123;&#125;</div><div class="line">if (![anotherObject boolValue]) &#123;&#125;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">if (someObject == nil) &#123;&#125;</div><div class="line">if ([anotherObject boolValue] == NO) &#123;&#125;</div><div class="line">if (isAwesome == YES) &#123;&#125; // Never do this.</div><div class="line">if (isAwesome == true) &#123;&#125; // Never do this.</div></pre></td></tr></table></figure>
-<p>如果 <code>BOOL</code> 属性的名字是一个形容词，属性就能忽略“ is ”缀，但要指定 get 访问器的惯用名称。例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">@property (nonatomic, assign, getter=isEditable) BOOL editable;</div></pre></td></tr></table></figure>
-<p>文字和例子从这里引用 <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingIvarsAndTypes.html#//apple_ref/doc/uid/20001284-BAJGIIJE" target="_blank" rel="external">Cocoa Naming Guidelines</a> 。</p>
-<h3 id="3-6-条件语句"><a href="#3-6-条件语句" class="headerlink" title="3.6 条件语句"></a>3.6 条件语句</h3><p>条件语句主体为了防止出错应该使用大括号包围，即使条件语句主体能够不用大括号编写（如，只用一行代码）。</p>
-<p>这些错误包括添加第二行代码和期望它成为 <code>if</code> 语句。例如 <a href="https://softwareengineering.stackexchange.com/a/16530" target="_blank" rel="external">Single statement if block - braces or no?</a> 中可能发生在 <code>if</code> 语句里面一行代码被注释了，然后下一行代码不知不觉地成为 <code>if</code> 语句的一部分。</p>
-<p>除此之外，这种风格与其他条件语句的风格保持一致，所以更加容易阅读。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if (!error) &#123;</div><div class="line">    return success;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">if (!error)</div><div class="line">    return success;</div></pre></td></tr></table></figure>
-<p>或</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">if (!error) return success;</div></pre></td></tr></table></figure>
-<h4 id="3-6-1-三元操作符"><a href="#3-6-1-三元操作符" class="headerlink" title="3.6.1 三元操作符"></a>3.6.1 三元操作符</h4><ol>
-<li>当需要提高代码的清晰性和简洁性时，三元操作符 <code>?:</code> 才会使用。单个条件求值常常需要它；</li>
-<li>多个条件求值时，如果使用 <code>if</code> 语句或重构成实例变量时，代码会更加易读；</li>
-<li>一般来说，最好使用三元操作符是在根据条件来赋值的情况下。</li>
-</ol>
-<p><code>Non-boolean</code> 的变量与某东西比较，加上括号 <code>()</code> 会提高可读性。如果被比较的变量是 <code>boolean</code> 类型，那么就不需要括号。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">NSInteger value = 5;</div><div class="line">result = (value != 0) ? x : y;</div><div class="line"></div><div class="line">BOOL isHorizontal = YES;</div><div class="line">result = isHorizontal ? x : y;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">result = a &gt; b ? x = c &gt; d ? c : d : y;</div></pre></td></tr></table></figure>
-<h3 id="3-7-Init-方法和类构造方法（instancetype）"><a href="#3-7-Init-方法和类构造方法（instancetype）" class="headerlink" title="3.7 Init 方法和类构造方法（instancetype）"></a>3.7 Init 方法和类构造方法（instancetype）</h3><p>当初始化方法和类构造方法被使用时，它应该返回类型是 <code>instancetype</code> 而不是 <code>id</code> 。这样确保编译器正确地推断结果类型。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">- (instancetype)init &#123;</div><div class="line">  self = [super init];</div><div class="line">  if (self) &#123;</div><div class="line">    // ...</div><div class="line">  &#125;</div><div class="line">  return self;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@interface Airplane</div><div class="line">+ (instancetype)airplaneWithType:(RWTAirplaneType)type;</div><div class="line">@end</div></pre></td></tr></table></figure>
-<p>关于更多 <code>instancetype</code> 信息，请查看 <a href="http://nshipster.com/instancetype/" target="_blank" rel="external">NSHipster.com</a> 。</p>
-<h3 id="3-8-CGRect函数"><a href="#3-8-CGRect函数" class="headerlink" title="3.8 CGRect函数"></a>3.8 CGRect函数</h3><p>当访问 <code>CGRect</code> 里的 <code>x</code>/<code>y</code>/<code>width</code>/<code>height</code> 时，应该使用 <code>CGGeometry</code> 函数而不是直接通过结构体来访问。引用 Apple 的 CGGeometry ：</p>
-<blockquote>
-<p>在这个参考文档中所有的函数，接受 <code>CGRect</code> 结构体作为输入，在计算它们结果时隐式地标准化这些 <code>rectangles</code> 。因此，你的应用程序应该避免直接访问和修改保存在 <code>CGRect</code> 数据结构中的数据。相反，使用这些函数来操纵 <code>rectangles</code> 和获取它们的特性。</p>
-</blockquote>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">CGRect frame = self.view.frame;</div><div class="line"></div><div class="line">CGFloat x = CGRectGetMinX(frame);</div><div class="line">CGFloat y = CGRectGetMinY(frame);</div><div class="line">CGFloat width = CGRectGetWidth(frame);</div><div class="line">CGFloat height = CGRectGetHeight(frame);</div><div class="line">CGRect frame = CGRectMake(0.0, 0.0, width, height);</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">CGRect frame = self.view.frame;</div><div class="line"></div><div class="line">CGFloat x = frame.origin.x;</div><div class="line">CGFloat y = frame.origin.y;</div><div class="line">CGFloat width = frame.size.width;</div><div class="line">CGFloat height = frame.size.height;</div><div class="line">CGRect frame = (CGRect)&#123; .origin = CGPointZero, .size = frame.size &#125;;</div></pre></td></tr></table></figure>
-<h3 id="3-9-黄金路径（使用-return）"><a href="#3-9-黄金路径（使用-return）" class="headerlink" title="3.9 黄金路径（使用 return）"></a>3.9 黄金路径（使用 return）</h3><p>当使用条件语句编码时，不要嵌套 <code>if</code> 语句，多个返回语句更 OK 。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">- (void)someMethod &#123;</div><div class="line">  if (![someOther boolValue]) &#123;</div><div class="line">	return;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  // Do something important</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">- (void)someMethod &#123;</div><div class="line">  if ([someOther boolValue]) &#123;</div><div class="line">    // Do something important</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="3-10-错误处理"><a href="#3-10-错误处理" class="headerlink" title="3.10 错误处理"></a>3.10 错误处理</h3><p>当方法通过引用来返回一个错误参数，判断返回值而不是错误变量。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">NSError *error;</div><div class="line">if (![self trySomethingWithError:&amp;error]) &#123;</div><div class="line">  // Handle Error</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">NSError *error;</div><div class="line">[self trySomethingWithError:&amp;error];</div><div class="line">if (error) &#123;</div><div class="line">  // Handle Error</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>在成功的情况下，有些 Apple 的 APIs 记录垃圾值（garbage values）到错误参数（如果 non-NULL），那么判断错误值会导致 false 负值和 crash 。</p>
-<h3 id="3-11-Block"><a href="#3-11-Block" class="headerlink" title="3.11 Block"></a>3.11 Block</h3><p>根据 <code>block</code> 的长度，有不同的书写规则：</p>
-<ul>
-<li>较短的 block 可以写在一行内（不强制）；</li>
-<li>如果分行显示的话，block 的右括号 <code>}</code> 应该和调用 block 那行代码的第一个非空字符对齐；</li>
-<li>block 内的代码采用 4 个空格的缩进；</li>
-<li>如果 block 过于庞大，应该单独声明成一个变量来使用；</li>
-<li><code>^</code> 和 <code>(</code> 之间，<code>^</code> 和 <code>{</code> 之间都没有空格，参数列表的右括号 <code>)</code> 和 <code>{</code> 之间有一个空格。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div></pre></td><td class="code"><pre><div class="line">// 较短的block可以写在一行内</div><div class="line">    [operation setCompletionBlock:^&#123; [self onOperationDone]; &#125;];</div><div class="line">    </div><div class="line">    // 分行书写的block，内部使用4空格缩进</div><div class="line">    [operation setCompletionBlock:^&#123;</div><div class="line">        [self.delegate newDataAvailable];</div><div class="line">    &#125;];</div><div class="line">    </div><div class="line">    // 使用C语言API调用的block遵循同样的书写规则</div><div class="line">    dispatch_async(_fileIOQueue, ^&#123;</div><div class="line">        NSString *path = [self sessionFilePath];</div><div class="line">        if (path) &#123;</div><div class="line">            // …</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line">    </div><div class="line">    // 较长的block关键字可以缩进后在新行书写，注意block的右括号`&#125;`和调用block那行代码的第一个非空字符对齐</div><div class="line">    // (Xcode本身对齐规则就是这样，平时很少注意到)</div><div class="line">    [[SessionService sharedService]</div><div class="line">     loadWindowWithCompletionBlock:^(SessionWindow *window) &#123;</div><div class="line">         if (window) &#123;</div><div class="line">             [self windowDidLoad:window];</div><div class="line">         &#125; else &#123;</div><div class="line">             [self errorLoadingWindow];</div><div class="line">         &#125;</div><div class="line">     &#125;];</div><div class="line">    </div><div class="line">    // 较长的block参数列表同样可以缩进后在新行书写</div><div class="line">    [[SessionService sharedService]</div><div class="line">     loadWindowWithCompletionBlock:</div><div class="line">     ^(SessionWindow *window) &#123;</div><div class="line">         if (window) &#123;</div><div class="line">             [self windowDidLoad:window];</div><div class="line">         &#125; else &#123;</div><div class="line">             [self errorLoadingWindow];</div><div class="line">         &#125;</div><div class="line">     &#125;];</div><div class="line">    </div><div class="line">    // 庞大的block应该单独定义成变量使用</div><div class="line">    void (^largeBlock)(void) = ^&#123;</div><div class="line">        // …</div><div class="line">    &#125;;</div><div class="line">    [_operationQueue addOperationWithBlock:largeBlock];</div><div class="line">    </div><div class="line">    // 在一个调用中使用多个block，注意到他们不是像函数那样通过`:`对齐的，而是同时进行了4个空格的缩进</div><div class="line">    [myObject doSomethingWith:arg1</div><div class="line">        firstBlock:^(Foo *a) &#123;</div><div class="line">            // …</div><div class="line">        &#125;</div><div class="line">        secondBlock:^(Bar *b) &#123;</div><div class="line">            // …</div><div class="line">        &#125;];</div></pre></td></tr></table></figure>
-<p>另外要注意的是：</p>
-<blockquote>
-<p><strong>block 使用的时候判断一下，再回调，防止未实现，导致 crash。</strong></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if (completion) &#123;</div><div class="line">	completion(true);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="3-12-数据结构的语法糖"><a href="#3-12-数据结构的语法糖" class="headerlink" title="3.12 数据结构的语法糖"></a>3.12 数据结构的语法糖</h3><p>应该使用可读性更好的语法糖来构造 <code>NSArray</code>，<code>NSDictionary</code> 等数据结构，避免使用冗长的 <code>alloc</code>、<code>init</code> 方法。</p>
-<p>例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">NSArray *array = @[[foo description], [bar description]];</div><div class="line">NSDictionary *dict = @&#123;NSForegroundColorAttributeName: [NSColor redColor]&#125;;</div></pre></td></tr></table></figure>
-<p>如果构造代码不写在一行内，右括号 <code>]</code> 或者 <code>}</code> 写在新的一行，语句短的和长的缩进如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">// 短的</div><div class="line">NSArray *array = @[</div><div class="line">                   @&quot;This&quot;,</div><div class="line">                   @&quot;is&quot;,</div><div class="line">                   @&quot;an&quot;,</div><div class="line">                   @&quot;array&quot;</div><div class="line">                   ];</div><div class="line"></div><div class="line">// 长的</div><div class="line">NSDictionary *dictionary = @&#123;</div><div class="line">    NSFontAttributeName : [UIFont fontWithName:@&quot;Helvetica-Bold&quot; size:12],</div><div class="line">    NSForegroundColorAttributeName : fontColor</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
-<p>构造字典时，字典的 <code>Key</code> 和 <code>Value</code> 与中间的冒号 <code>:</code> 都要留有一个空格，多行书写时，也可以将冒号 <code>:</code> 对齐：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">// 正确，冒号`:`前后留有一个空格</div><div class="line">NSDictionary *option1 = @&#123;</div><div class="line">    NSFontAttributeName : [UIFont fontWithName:@&quot;Helvetica-Bold&quot; size:12],</div><div class="line">    NSForegroundColorAttributeName : fontColor</div><div class="line">&#125;;</div><div class="line"></div><div class="line">// 正确，按照冒号`:`来对齐</div><div class="line">NSDictionary *option2 = @&#123;</div><div class="line">    NSFontAttributeName            : [NSFont fontWithName:@&quot;Arial&quot; size:12],</div><div class="line">    NSForegroundColorAttributeName : fontColor</div><div class="line">&#125;;</div><div class="line"></div><div class="line">//错误，冒号前应该有一个空格</div><div class="line">NSDictionary *wrong = @&#123;</div><div class="line">                        AKey: @&quot;b&quot;,</div><div class="line">                        BLongerKey: @&quot;c&quot;,</div><div class="line">                        &#125;;</div><div class="line"></div><div class="line">//错误，每一个元素要么单独成为一行，要么全部写在一行内</div><div class="line">NSDictionary *alsoWrong = @&#123;AKey : @&quot;a&quot;,</div><div class="line">                            BLongerKey : @&quot;b&quot;&#125;;</div></pre></td></tr></table></figure>
-<h2 id="四、命名规范"><a href="#四、命名规范" class="headerlink" title="四、命名规范"></a>四、命名规范</h2><h3 id="4-1-基本原则"><a href="#4-1-基本原则" class="headerlink" title="4.1 基本原则"></a>4.1 基本原则</h3><h4 id="4-1-1-清晰性"><a href="#4-1-1-清晰性" class="headerlink" title="4.1.1 清晰性"></a>4.1.1 清晰性</h4><p>命名应该尽可能的清晰和简洁，但在 Objective-C 中，清晰比简洁更重要。由于 Xcode 强大的自动补全功能，我们不必担心名称过长的问题。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">// 清晰 </div><div class="line">insertObject:atIndex:</div><div class="line"></div><div class="line">// 不清晰，insert的对象类型和at的位置属性没有说明 </div><div class="line">insert:at:</div><div class="line"></div><div class="line">// 清晰 </div><div class="line">removeObjectAtIndex:</div><div class="line"></div><div class="line">// 不清晰，remove的对象类型没有说明，参数的作用没有说明 </div><div class="line">remove:</div></pre></td></tr></table></figure>
-<p>不要使用单词的简写，拼写出完整的单词：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">// 清晰 </div><div class="line">destinationSelection </div><div class="line">setBackgroundColor:</div><div class="line"></div><div class="line">// 不清晰，不要使用简写 </div><div class="line">destSel </div><div class="line">setBkgdColor:</div></pre></td></tr></table></figure>
-<p>然而，有部分单词简写在 Objective-C 编码过程中是非常常用的，以至于成为了一种规范，这些简写可以在代码中直接使用，下面列举了部分：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">alloc == Allocate       max == Maximum </div><div class="line">alt == Alternate        min == Minimum </div><div class="line">app == Application      msg == Message </div><div class="line">calc == Calculate       nib == Interface Builder archive </div><div class="line">dealloc == Deallocate   init == Initialize  </div><div class="line">func == Function        rect == Rectangle </div><div class="line">horiz == Horizontal     vert == Vertical </div><div class="line">info == Information     temp == Temporary</div></pre></td></tr></table></figure>
-<p>命名方法或者函数时要避免歧义：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// 有歧义，是返回sendPort还是send一个Port？ </div><div class="line">sendPort</div><div class="line"></div><div class="line">// 有歧义，是返回一个名字属性的值还是display一个name的动作？ </div><div class="line">displayName</div></pre></td></tr></table></figure>
-<h4 id="4-1-2-一致性"><a href="#4-1-2-一致性" class="headerlink" title="4.1.2 一致性"></a>4.1.2 一致性</h4><p>整个工程的命名风格要保持一致性。</p>
-<p>比如不同 Model 中表示性别应该用一样的名字，比如我们需要表示性别，不可以有的用 gender ，有的用 sex 。</p>
-<p>或者不同类中完成相似功能的方法应该叫一样的名字，比如我们总是用 count 来返回集合的个数，不能在 A 类中使用 count 而在 B 类中使用 getNumber 。</p>
-<h3 id="4-2-使用前缀"><a href="#4-2-使用前缀" class="headerlink" title="4.2 使用前缀"></a>4.2 使用前缀</h3><ul>
-<li><p>前缀由大写的字母缩写组成，比如 Cocoa 中 NS 前缀代表 Founation 框架中的类， IB 则代表 Interface Builder 框架。</p>
-</li>
-<li><p>可以在为类、协议、函数、常量以及 typedef 宏命名的时候使用前缀，但注意不要为成员变量或者方法使用前缀，因为他们本身就包含在类的命名空间内。 </p>
-</li>
-<li><p>命名前缀的时候不要和苹果 SDK 框架冲突。</p>
-</li>
-</ul>
-<h3 id="4-3-图片资源的命名"><a href="#4-3-图片资源的命名" class="headerlink" title="4.3 图片资源的命名"></a>4.3 图片资源的命名</h3><p>规则如下：</p>
-<ul>
-<li>用英文命名，不用拼音；</li>
-<li>每一部分用下划线分隔；</li>
-<li>图片名中两倍图在名字最后要加 <code>@2x</code>，三倍图在名字最后要加 <code>@3x</code>。</li>
-</ul>
-<p>格式如下：</p>
-<blockquote>
-<p>逻辑分类 <em> 表现内容 </em> 图片状态</p>
-</blockquote>
-<p>某个模块用到的，以模块作为第一部分，例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">tabbar_chat // tabbar聊天模块正常状态切图</div><div class="line">tabbar_chat_selected // tabbar聊天模块选中状态切图</div><div class="line"></div><div class="line">chat_switchCamera // 聊天模块中拍摄界面的切换摄像头切图</div></pre></td></tr></table></figure>
-<p>有的切图是整个 App 用到的，例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">public_back // 返回切图</div><div class="line">public_close // 关闭切图</div></pre></td></tr></table></figure>
-<h3 id="4-4-类和协议（-Class-amp-Protocol-）-的命名"><a href="#4-4-类和协议（-Class-amp-Protocol-）-的命名" class="headerlink" title="4.4 类和协议（ Class &amp; Protocol ） 的命名"></a>4.4 类和协议（ Class &amp; Protocol ） 的命名</h3><p>类名以大写字母开头，应该包含一个名词来表示它代表的对象类型如 Model 。<br>同时可以加上统一的前缀，比如 NSString、NSArray 等等以 NS 开头。 我们项目使用 <code>EHI</code> 。</p>
-<p>而协议名称应该清晰地表示它所执行的行为，而且要和类名区别开来，所以通常使用 <code>ing</code> 词尾来命名一个协议，比如 NSCopying、NSLocking 。</p>
-<h3 id="4-5-委托（Delegate）的命名"><a href="#4-5-委托（Delegate）的命名" class="headerlink" title="4.5 委托（Delegate）的命名"></a>4.5 委托（Delegate）的命名</h3><p>当特定的事件发生时，对象会触发它注册的委托方法。委托是 Objective-C 中常用的传递消息的方式。委托有它固定的命名范式。</p>
-<p>委托的命名参考类名，通常使用 <code>Delegate</code> 词尾，比如 UITableViewDelegate、UIScrollViewDelegate。</p>
-<p>一个委托方法的第一个参数是触发它的对象，第一个关键词是触发对象的类名，除非委托方法只有一个名为 sender 的参数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 第一个关键词为触发委托的类名</div><div class="line">- (BOOL)tableView:(NSTableView *)tableView shouldSelectRow:(int)row;</div><div class="line">- (BOOL)application:(NSApplication *)sender openFile:(NSString *)filename;</div><div class="line"></div><div class="line">// 当只有一个&quot;sender&quot;参数时可以省略类名</div><div class="line">- (BOOL)applicationOpenUntitledFile:(NSApplication *)sender;</div></pre></td></tr></table></figure>
-<p>根据委托方法触发的时机和目的，使用 should , will , did 等关键词：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">- (void)browserDidScroll:(NSBrowser *)sender;</div><div class="line"></div><div class="line">- (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)window;</div><div class="line"></div><div class="line">- (BOOL)windowShouldClose:(id)sender;</div></pre></td></tr></table></figure>
-<p>###4.6 头文件的命名（Headers）</p>
-<p>源码的头文件名应该清晰地暗示它的功能和包含的内容：</p>
-<ul>
-<li><p>如果头文件内只定义了单个类或者协议，直接用类名或者协议名来命名头文件，比如 <code>NSLocale.h</code> 定义了 <code>NSLocale</code> 类。</p>
-</li>
-<li><p>如果头文件内定义了一系列的类、协议、类别，使用其中最主要的类名来命名头文件，比如 <code>NSString.h</code> 定义了 <code>NSString</code> 和 <code>NSMutableString</code>。</p>
-</li>
-<li><p>每一个 Framework 都应该有一个和框架同名的头文件，包含了框架中所有公共类头文件的引用，比如 <code>Foundation.h</code>。</p>
-</li>
-<li><p>Framework 中有时候会实现在别的框架中类的类别扩展，这样的文件通常使用 <code>被扩展的框架名+Additions</code> 的方式来命名，比如 <code>NSBundleAdditions.h</code>。</p>
-</li>
-</ul>
-<h3 id="4-7-方法的命名"><a href="#4-7-方法的命名" class="headerlink" title="4.7 方法的命名"></a>4.7 方法的命名</h3><p>在方法签名中，应该在方法类型（<code>-</code>/<code>+</code> 符号）之后有一个空格。在方法各个段之间应该也有一个空格（符合Apple的风格）。在参数之前应该包含一个具有描述性的关键字来描述参数。</p>
-<p>方法一般以小写字母打头，每一个后续的单词首字母大写，方法名中不应该有标点符号（包括下划线），有两个例外：</p>
-<ul>
-<li>可以用一些通用的大写字母缩写打头方法，比如 PDF、TIFF 等。</li>
-<li>可以用带下划线的前缀来命名私有方法或者类别中的方法（如 MJRefresh ）。</li>
-</ul>
-<p>如果方法表示让对象执行一个动作，使用动词打头来命名，注意不要使用 do，does 这种多余的关键字，动词本身的暗示就足够了：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">// 动词打头的方法表示让对象执行一个动作</div><div class="line">- (void)invokeWithTarget:(id)target;</div><div class="line">- (void)selectTabViewItem:(NSTabViewItem *)tabViewItem;</div></pre></td></tr></table></figure>
-<p>如果方法是为了获取对象的一个属性值，直接用属性名称来命名这个方法，注意不要添加 get 或者其他的动词前缀：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 正确，使用属性名来命名方法</div><div class="line">- (NSSize)cellSize;</div><div class="line"></div><div class="line">// 错误，添加了多余的动词前缀</div><div class="line">- (NSSize)calcCellSize;</div><div class="line">- (NSSize)getCellSize;</div></pre></td></tr></table></figure>
-<p>对于有多个参数的方法，务必在每一个参数前都添加关键词，关键词应当清晰说明参数的作用。</p>
-<p><code>and</code> 这个词的用法应该保留。它不应该用于多个参数来说明，就像 <code>initWithWidth:height</code> 以下这个例子：</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (void)setExampleText:(NSString *)text image:(UIImage *)image;</div><div class="line">- (void)sendAction:(SEL)aSelector to:(id)anObject forAllCells:(BOOL)flag;</div><div class="line">- (id)viewWithTag:(NSInteger)tag;</div><div class="line">- (instancetype)initWithWidth:(CGFloat)width height:(CGFloat)height;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">-(void)setT:(NSString *)text i:(UIImage *)image; // 关键词不清晰</div><div class="line">- (void)sendAction:(SEL)aSelector :(id)anObject :(BOOL)flag; // 无关键词</div><div class="line">- (id)taggedView:(NSInteger)tag; // 关键词的作用不清晰</div><div class="line">- (instancetype)initWithWidth:(CGFloat)width andHeight:(CGFloat)height;</div><div class="line">- (instancetype)initWith:(int)width and:(int)height;  // Never do this.</div></pre></td></tr></table></figure>
-<p>方法的参数命名也有一些需要注意的地方：</p>
-<ul>
-<li>和方法名类似，参数的第一个字母小写，后面的每一个单词首字母大写。</li>
-<li>不要再方法名中使用类似 <code>pointer</code>、<code>ptr</code> 这样的字眼去表示指针，参数本身的类型足以说明。</li>
-<li>不要使用只有一两个字母的参数名。</li>
-<li>不要使用简写，拼出完整的单词。</li>
-</ul>
-<p>下面列举了一些常用参数名：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">...action:(SEL)aSelector</div><div class="line">...alignment:(int)mode</div><div class="line">...atIndex:(int)index</div><div class="line">...content:(NSRect)aRect</div><div class="line">...doubleValue:(double)aDouble</div><div class="line">...floatValue:(float)aFloat</div><div class="line">...font:(NSFont *)fontObj</div><div class="line">...frame:(NSRect)frameRect</div><div class="line">...intValue:(int)anInt</div><div class="line">...keyEquivalent:(NSString *)charCode</div><div class="line">...length:(int)numBytes</div><div class="line">...point:(NSPoint)aPoint</div><div class="line">...stringValue:(NSString *)aString</div><div class="line">...tag:(int)anInt</div><div class="line">...target:(id)anObject</div><div class="line">...title:(NSString *)aString</div></pre></td></tr></table></figure>
-<h3 id="4-8-存取方法（Accessor-Methods）的命名"><a href="#4-8-存取方法（Accessor-Methods）的命名" class="headerlink" title="4.8 存取方法（Accessor Methods）的命名"></a>4.8 存取方法（Accessor Methods）的命名</h3><p>存取方法是指用来获取和设置类属性值的方法，属性的不同类型，对应着不同的存取方法规范：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">// 属性是一个名词时的存取方法范式</div><div class="line">- (type)noun;</div><div class="line">- (void)setNoun:(type)aNoun;</div><div class="line">// 例子</div><div class="line">- (NSString *)title;</div><div class="line">- (void)setTitle:(NSString *)aTitle;</div><div class="line"></div><div class="line">// 属性是一个形容词时存取方法的范式</div><div class="line">- (BOOL)isAdjective;</div><div class="line">- (void)setAdjective:(BOOL)flag;</div><div class="line">// 例子</div><div class="line">- (BOOL)isEditable;</div><div class="line">- (void)setEditable:(BOOL)flag;</div><div class="line"></div><div class="line">// 属性是一个动词时存取方法的范式</div><div class="line">- (BOOL)verbObject;</div><div class="line">- (void)setVerbObject:(BOOL)flag;</div><div class="line">// 例子</div><div class="line">- (BOOL)showsAlpha;</div><div class="line">- (void)setShowsAlpha:(BOOL)flag;</div></pre></td></tr></table></figure>
-<p>命名存取方法时不要将动词转化为被动形式来使用：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">// 正确</div><div class="line">- (void)setAcceptsGlyphInfo:(BOOL)flag;</div><div class="line">- (BOOL)acceptsGlyphInfo;</div><div class="line"></div><div class="line">// 错误，不要使用动词的被动形式</div><div class="line">- (void)setGlyphInfoAccepted:(BOOL)flag;</div><div class="line">- (BOOL)glyphInfoAccepted;</div></pre></td></tr></table></figure>
-<p>可以使用 <code>can</code>、<code>should</code>、<code>will</code> 等词来协助表达存取方法的意思，但不要使用 <code>do</code> 和 <code>does</code>：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// 正确</div><div class="line">- (void)setCanHide:(BOOL)flag;</div><div class="line">- (BOOL)canHide;</div><div class="line">- (void)setShouldCloseDocument:(BOOL)flag;</div><div class="line">- (BOOL)shouldCloseDocument;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">// 错误，不要使用`do`或者`does`</div><div class="line">- (void)setDoesAcceptGlyphInfo:(BOOL)flag;</div><div class="line">- (BOOL)doesAcceptGlyphInfo;</div></pre></td></tr></table></figure>
-<p>为什么 Objective-C 中不适用 <code>get</code> 前缀来表示属性获取方法？因为 get 在 Objective-C 中通常只用来表示从函数指针返回值的函数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">// 三个参数都是作为函数的返回值来使用的，这样的函数名可以使用`get`前缀</div><div class="line">- (void)getLineDash:(float *)pattern count:(int *)count phase:(float *)phase;</div></pre></td></tr></table></figure>
-<h3 id="4-9-集合操作类方法（Collection-Methods）的命名"><a href="#4-9-集合操作类方法（Collection-Methods）的命名" class="headerlink" title="4.9 集合操作类方法（Collection Methods）的命名"></a>4.9 集合操作类方法（Collection Methods）的命名</h3><p>有些对象管理着一系列其它对象或者元素的集合，需要使用类似<code>增删查改</code>的方法来对集合进行操作，这些方法的命名范式一般为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">// 集合操作范式</div><div class="line">- (void)addElement:(elementType)anObj;</div><div class="line">- (void)removeElement:(elementType)anObj;</div><div class="line">- (NSArray *)elements;</div><div class="line"></div><div class="line">// 例子</div><div class="line">- (void)addLayoutManager:(NSLayoutManager *)obj;</div><div class="line">- (void)removeLayoutManager:(NSLayoutManager *)obj;</div><div class="line">- (NSArray *)layoutManagers;</div></pre></td></tr></table></figure>
-<p>注意，如果返回的集合是无序的，使用 <code>NSSet</code> 来代替 <code>NSArray</code>。如果需要将元素插入到特定的位置，使用类似于这样的命名：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">- (void)insertLayoutManager:(NSLayoutManager *)obj atIndex:(int)index;</div><div class="line">- (void)removeLayoutManagerAtIndex:(int)index;</div></pre></td></tr></table></figure>
-<p>如果管理的集合元素中有指向管理对象的指针，要设置成 <code>weak</code> 类型以防止引用循环。</p>
-<p>下面是 SDK 中 <code>NSWindow</code> 类的集合操作方法：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">- (void)addChildWindow:(NSWindow *)childWin ordered:(NSWindowOrderingMode)place;</div><div class="line">- (void)removeChildWindow:(NSWindow *)childWin;</div><div class="line">- (NSArray *)childWindows;</div><div class="line">- (NSWindow *)parentWindow;</div><div class="line">- (void)setParentWindow:(NSWindow *)window;</div></pre></td></tr></table></figure>
-<h3 id="4-10-函数（Functions）的命名"><a href="#4-10-函数（Functions）的命名" class="headerlink" title="4.10 函数（Functions）的命名"></a>4.10 函数（Functions）的命名</h3><p>函数的命名和方法有一些不同，主要是：</p>
-<ul>
-<li>函数名称一般带有缩写前缀，表示方法所在的框架。</li>
-<li>前缀后的单词以“驼峰”表示法显示，第一个单词首字母大写。</li>
-</ul>
-<p>函数名的第一个单词通常是一个动词，表示方法执行的操作：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">NSHighlightRect</div><div class="line">NSDeallocateObject</div></pre></td></tr></table></figure>
-<p>如果函数返回其参数的某个属性，省略动词：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">unsigned int NSEventMaskFromType(NSEventType type)</div><div class="line">float NSHeight(NSRect aRect)</div></pre></td></tr></table></figure>
-<p>如果函数通过指针参数来返回值，需要在函数名中使用Get：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">const char *NSGetSizeAndAlignment(const char *typePtr, unsigned int *sizep, unsigned int *alignp)</div></pre></td></tr></table></figure>
-<p>函数的返回类型是BOOL时的命名：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">BOOL NSDecimalIsNotANumber(const NSDecimal *decimal)</div></pre></td></tr></table></figure>
-<h3 id="4-11-属性的命名"><a href="#4-11-属性的命名" class="headerlink" title="4.11 属性的命名"></a>4.11 属性的命名</h3><p>所有属性特性应该显式地列出来，因为一般都是用 <code>nonatomic</code> ，但是默认是 <code>atomic</code> 且不频繁使用，所以为了看着整齐，把 <code>nonatomic</code> 写在前面。</p>
-<p>属性和对象的存取方法相关联，属性的第一个字母小写，后续单词首字母大写，不必添加前缀。属性按功能命名成名词或者动词：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// 名词属性</div><div class="line">@property (nonatomic, strong) NSString *title;</div><div class="line"></div><div class="line">// 动词属性</div><div class="line">@property (nonatomic, assign) BOOL showsAlpha;</div></pre></td></tr></table></figure>
-<p>属性也可以命名成形容词，这时候通常会指定一个带有 <code>is</code> 前缀的 <code>get</code> 方法来提高可读性：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">@property (nonatomic, assign, getter=isEditable) BOOL editable;</div></pre></td></tr></table></figure>
-<p>命名实例变量，在变量名前加上 <code>“_”</code> 前缀（有些有历史的代码会将 <code>“_”</code> 放在后面），其它和命名属性一样：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@implementation MyClass &#123;</div><div class="line">    BOOL _showsTitle;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>当使用属性时，实例变量应该使用点语法 <code>self.</code> 来访问和改变。当你使用点语法时，通过使用 getter 或 setter 方法，属性仍然被访问或修改。想了解更多，阅读<a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/EncapsulatingData/EncapsulatingData.html" target="_blank" rel="external">这里</a>。</p>
-<p>但有一个特例：在初始化方法里，实例变量（例如： _variableName ）应该直接被使用来避免 getters/setters 潜在的副作用。</p>
-<p>局部变量不应该包含下划线。</p>
-<h3 id="4-12-对象的命名"><a href="#4-12-对象的命名" class="headerlink" title="4.12 对象的命名"></a>4.12 对象的命名</h3><p>对象的命名都统一格式如下：</p>
-<blockquote>
-<p>名称 + 类名</p>
-</blockquote>
-<p>应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UIButton *settingsButton;</div></pre></td></tr></table></figure>
-<p>不应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UIButton *setBut;</div></pre></td></tr></table></figure>
-<h3 id="4-13-通知（Notifications）的命名"><a href="#4-13-通知（Notifications）的命名" class="headerlink" title="4.13 通知（Notifications）的命名"></a>4.13 通知（Notifications）的命名</h3><p>通知常用于在模块间传递消息，所以通知要尽可能地表示出发生的事件。</p>
-<p>但是请慎用，例如一个页面 FirstViewController 出另一个 SecondViewController ，SecondViewController 给 FirstViewController 传值用 Block 即可。</p>
-<p>通知的命名范式是：</p>
-<blockquote>
-<p>k + [触发通知的类名] + [Did | Will(状态)] + [动作] + Notification</p>
-</blockquote>
-<p>例如系统的都以 NS 开头：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">NSApplicationDidBecomeActiveNotification</div><div class="line">NSWindowDidMiniaturizeNotification</div><div class="line">NSTextViewDidChangeSelectionNotification</div><div class="line">NSColorPanelColorDidChangeNotification</div></pre></td></tr></table></figure>
-<h3 id="4-14-常量、宏、枚举的命名"><a href="#4-14-常量、宏、枚举的命名" class="headerlink" title="4.14 常量、宏、枚举的命名"></a>4.14 常量、宏、枚举的命名</h3><p>如果要定义一组相关的常量，尽量使用枚举类型，枚举类型的命名规则和函数的命名规则相同。 建议使用 <code>NS_ENUM</code> 和 <code>NS_OPTIONS</code> 宏来定义枚举类型：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">// 定义一个枚举</div><div class="line">typedef NS_ENUM(NSInteger, NSMatrixMode) &#123;</div><div class="line">    NSRadioModeMatrix,</div><div class="line">    NSHighlightModeMatrix,</div><div class="line">    NSListModeMatrix,</div><div class="line">    NSTrackModeMatrix</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
-<p>使用匿名枚举定义 bit map ：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">typedef NS_OPTIONS(NSUInteger, NSWindowMask) &#123;</div><div class="line">    NSBorderlessWindowMask      = 0,</div><div class="line">    NSTitledWindowMask          = 1 &lt;&lt; 0,</div><div class="line">    NSClosableWindowMask        = 1 &lt;&lt; 1,</div><div class="line">    NSMiniaturizableWindowMask  = 1 &lt;&lt; 2,</div><div class="line">    NSResizableWindowMask       = 1 &lt;&lt; 3</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
-<p>使用 <code>const</code> 定义浮点型或者单个的整数型常量，如果要定义一组相关的整数常量，应该优先使用枚举。常量的命名规范和函数相同：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">static NSString * const EHITableViewCellReuseIdentifier = @&quot;TableViewCellReuseIdentifier&quot;;</div></pre></td></tr></table></figure>
-<p>不要使用 <code>#define</code> 宏来定义常量，如果是整型常量，尽量使用枚举，浮点型常量，使用 <code>const</code> 定义。<code>#define</code> 统一格式要加前缀 <code>k</code> ：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#define kUIColorHex(_hex_) [UIColor colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]</div></pre></td></tr></table></figure>
-<h2 id="五、注释"><a href="#五、注释" class="headerlink" title="五、注释"></a>五、注释</h2><h3 id="5-1-文件注释"><a href="#5-1-文件注释" class="headerlink" title="5.1 文件注释"></a>5.1 文件注释</h3><p>不强制性要求，如果需要，写的清晰易懂即可。这里拿 AFNetWorking 的框架来做模板：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">// AFHTTPRequestOperation.h</div><div class="line">//</div><div class="line">// Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com)</div><div class="line">//</div><div class="line">// Permission is hereby granted, free of charge, to any person obtaining a copy</div><div class="line">// of this software and associated documentation files (the &quot;Software&quot;), to deal</div><div class="line">// in the Software without restriction, including without limitation the rights</div><div class="line">// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</div><div class="line">// copies of the Software, and to permit persons to whom the Software is</div><div class="line">// furnished to do so, subject to the following conditions:</div><div class="line">//</div><div class="line">// The above copyright notice and this permission notice shall be included in</div><div class="line">// all copies or substantial portions of the Software.</div><div class="line">//</div><div class="line">// THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</div><div class="line">// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</div><div class="line">// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</div><div class="line">// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</div><div class="line">// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</div><div class="line">// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN</div><div class="line">// THE SOFTWARE.</div></pre></td></tr></table></figure>
-<h3 id="5-2-方法和属性注释"><a href="#5-2-方法和属性注释" class="headerlink" title="5.2 方法和属性注释"></a>5.2 方法和属性注释</h3><p>在 <code>.h</code> 文件中采用 Apple 的标准注释风格，好处是可以在引用的地方 <code>alt + 点击</code> 自动弹出注释，在写代码调用时也有提示方法或属性的说明，非常方便。</p>
-<p>有很多可以自动生成注释格式的插件，推荐使用 <a href="https://github.com/onevcat/VVDocumenter-Xcode" target="_blank" rel="external">VVDocumenter</a>： </p>
-<p><img src="./1.gif" alt="Alt text"></p>
-<p>在 <code>.m</code> 文件中，这种方式参数多的时候占行数多也太啰嗦，可以用如下良好的方式说明即可：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/** Stop current preconnecting when application is going to background */</div><div class="line">- (void)stopRunning &#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>协议、委托的注释要明确说明其被触发的条件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/** Delegate - Sent when failed to init connection, like p2p failed. / </div><div class="line">- (void)initConnectionDidFailed:(IPCConnectHandler *)handler &#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>在方法实现中使用 <code>//</code> 注释即可，但是后面必须追加一个空格分隔后面的注释语句。</p>
-<p>如果在注释中要引用参数名或者方法函数名，使用一对 “ ` ” 将参数或者方法括起来以避免歧义：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">// Sometimes we need `count` to be less than zero.</div><div class="line"></div><div class="line">// Remember to call `StringWithoutSpaces(“foo bar baz”)`.</div></pre></td></tr></table></figure>
-<h3 id="5-3-段注释"><a href="#5-3-段注释" class="headerlink" title="5.3 段注释"></a>5.3 段注释</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#pragma mark - 段索引</div></pre></td></tr></table></figure>
-<p>该语句上下各保留一个换行，这个是一个分割线的效果，便于多个方法分类查看。</p>
-<h2 id="六、编码风格"><a href="#六、编码风格" class="headerlink" title="六、编码风格"></a>六、编码风格</h2><h3 id="6-1-关于如何在代码块中留回车"><a href="#6-1-关于如何在代码块中留回车" class="headerlink" title="6.1 关于如何在代码块中留回车"></a>6.1 关于如何在代码块中留回车</h3><p>这里拿的是 AFNetworking 框架做的一个说明：</p>
-<p><img src="./1495706811587.png" alt="Alt text"></p>
-<h3 id="6-2-点符号语法"><a href="#6-2-点符号语法" class="headerlink" title="6.2 点符号语法"></a>6.2 点符号语法</h3><p>点语法是一种很方便封装访问方法调用的方式。当你使用点语法时，通过使用 <code>getter</code> 或 <code>setter</code> 方法，属性仍然被访问或修改。想了解更多，阅读 <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/EncapsulatingData/EncapsulatingData.html" target="_blank" rel="external">这里</a> 。</p>
-<p>点语法应该总是被用来访问和修改属性，因为它使代码更加简洁。<code>[]</code> 符号更偏向于用在其他例子。</p>
-<p>应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSInteger arrayCount = [self.array count];</div><div class="line">view.backgroundColor = [UIColor orangeColor];</div><div class="line">[UIApplication sharedApplication].delegate;</div></pre></td></tr></table></figure>
-<p>不应该:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSInteger arrayCount = self.array.count;</div><div class="line">[view setBackgroundColor:[UIColor orangeColor]];</div><div class="line">UIApplication.sharedApplication.delegate;</div></pre></td></tr></table></figure>
-<h3 id="6-3-nil、Nil、Null、NSNull-的使用"><a href="#6-3-nil、Nil、Null、NSNull-的使用" class="headerlink" title="6.3 nil、Nil、Null、NSNull 的使用"></a>6.3 nil、Nil、Null、NSNull 的使用</h3><p>我们先来看下这些空值的定义：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">nil:  Defines the id of a null instance，指向一个（实例）对象的空指针 </div><div class="line">例如：</div><div class="line">NSString *msg = nil;</div><div class="line">NSDate *date =nil;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Nil: Defines the id of a null class，指向一个类的空指针</div><div class="line">例如：</div><div class="line">Class class = Nil;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">NULL：定义其他类型（基本类型、C类型）的空指针</div><div class="line">char *p = NULL;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">NSNull:数组中元素的占位符，数据中的元素不能为nil（可以为空，也就是NSNull），</div><div class="line">原因：nil 是数组的结束标志</div><div class="line">如果用nil，就会变成</div><div class="line">NSArray *array = [NSArray arrayWithObjects:</div><div class="line">[[NSObject alloc] init], </div><div class="line">nil,</div><div class="line">[[NSObject alloc] init], </div><div class="line">[[NSObject alloc] init], </div><div class="line">nil];，</div><div class="line">那么数组到第二个位置就会结束。打印[array count]的话会显示1而不是5</div></pre></td></tr></table></figure>
-<h3 id="6-4-“-”判断"><a href="#6-4-“-”判断" class="headerlink" title="6.4 “==”判断"></a>6.4 “==”判断</h3><p>如果常量值在表达式右侧，代码将会编译和执行，并不像预期的那样。</p>
-<p>如果常量值在表达式左侧，这个错误将在第一次尝试编译时被捕获。</p>
-<p>应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">if ( constant == var )</div><div class="line">if ( NULL == pointer )</div></pre></td></tr></table></figure>
-<p>不应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">if ( var == constant )</div><div class="line">if ( pointer == NULL )</div></pre></td></tr></table></figure>
-<h3 id="6-5-Getter-方法"><a href="#6-5-Getter-方法" class="headerlink" title="6.5 Getter 方法"></a>6.5 Getter 方法</h3><p><code>Getter</code> 方法全部写在文件所有方法之后，按照声明的顺序来写，用段注释和其他方法分隔：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#pragma mark - Getter</div></pre></td></tr></table></figure>
-<p>书写上建议统一使用下面这种方式，易复用。</p>
-<p>应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">- (UIButton *)loginButton &#123;</div><div class="line">    if (!_loginButton) &#123;</div><div class="line">        UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];</div><div class="line">        [button setTitle:@&quot;登录&quot; forState:UIControlStateNormal];</div><div class="line">        button.backgroundColor = [UIColor cyanColor];</div><div class="line">        button.layer.cornerRadius = 4;</div><div class="line">        button.clipsToBounds = YES;</div><div class="line">        </div><div class="line">        [self.view addSubview:button];</div><div class="line">        _loginButton = button;</div><div class="line">    &#125;</div><div class="line">    return _loginButton;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>不应该：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">- (UIButton *)loginButton &#123;</div><div class="line">    if (!_loginButton) &#123;</div><div class="line">        _loginButton = [UIButton buttonWithType:UIButtonTypeCustom];</div><div class="line">        [_loginButton setTitle:@&quot;登录&quot; forState:UIControlStateNormal];</div><div class="line">        _loginButton.backgroundColor = [UIColor cyanColor];</div><div class="line">        _loginButton.layer.cornerRadius = 4;</div><div class="line">        _loginButton.clipsToBounds = YES;</div><div class="line">        [self.view addSubview:_loginButton];</div><div class="line">    &#125;</div><div class="line">    return _loginButton;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="6-6-属性特性的使用（copy-strong-retain）"><a href="#6-6-属性特性的使用（copy-strong-retain）" class="headerlink" title="6.6 属性特性的使用（copy/strong/retain）"></a>6.6 属性特性的使用（copy/strong/retain）</h3><p><code>strong</code> 和 <code>retain</code> ：两者基本是一样的，在 ARC 环境下统一使用 strong。不一样的是 ARC 下的 strong 修饰 block 的时候会对 block 进行 copy 操作，不过还是建议保留好习惯，block 务必用 copy 修饰。</p>
-<p><code>copy</code> ：用于 NSString、NSArray、NSDictionary 等有对应的可变类型的属性，和 Block （具体原因见<a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8-SW12" target="_blank" rel="external">官方文档：Objects Use Properties to Keep Track of Blocks</a>）。</p>
-<p>copy 特性：</p>
-<blockquote>
-<ol>
-<li><p>因为父类指针可以指向子类对象，使用 copy 的目的是为了让本对象的属性不受外界影响，使用 copy 无论给我传入是一个可变对象还是不可对象，我本身持有的就是一个不可变的副本。</p>
-</li>
-<li><p>如果我们使用是 strong ，那么这个属性就有可能指向一个可变对象，如果这个可变对象在外部被修改了，那么会影响该属性。</p>
-</li>
-</ol>
-</blockquote>
-<h3 id="6-7-属性特性的使用-（weak-assign）"><a href="#6-7-属性特性的使用-（weak-assign）" class="headerlink" title="6.7 属性特性的使用 （weak/assign）"></a>6.7 属性特性的使用 （weak/assign）</h3><p><code>assign</code>：修饰基本数据类型和结构体。</p>
-<p><code>weak</code>：修饰指针变量。例如 delegate ，一定要用 weak 修饰。</p>
-<p> weak 比 assign 多了一个功能就是当属性所指向的对象消失的时候（也就是内存引用计数为0）会自动赋值为 nil ，这样再向 weak 修饰的属性发送消息就不会导致野指针操作 crash 。</p>
-<h3 id="6-8-Block-和-Delegate-的使用"><a href="#6-8-Block-和-Delegate-的使用" class="headerlink" title="6.8 Block 和 Delegate 的使用"></a>6.8 Block 和 Delegate 的使用</h3><p>Block 和 Delegate 回调之前要判断。</p>
-<p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">// Block</div><div class="line">if (completionBlock) &#123;</div><div class="line">	completionBlock(operations); </div><div class="line">&#125;</div><div class="line"></div><div class="line">// Delegate</div><div class="line">if ([delegate respondsToSelector:@selector(hudWasHidden:)]) &#123;</div><div class="line">	[delegate performSelector:@selector(hudWasHidden:) withObject:self];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="6-9-h-文件的书写"><a href="#6-9-h-文件的书写" class="headerlink" title="6.9 .h 文件的书写"></a>6.9 .h 文件的书写</h3><p>属性和方法都尽量写在 .m 文件中，不要轻易暴露，外部其他文件需要使用的时候才写在 .h 文件中。</p>
-<h3 id="6-10-扩展Category"><a href="#6-10-扩展Category" class="headerlink" title="6.10 扩展Category"></a>6.10 扩展Category</h3><p>文件命名格式如下：</p>
-<blockquote>
-<p>类名 + 扩展名</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UIImage+Extension</div></pre></td></tr></table></figure>
-<p>不要滥用扩展，需要扩展前检查下是否已有类似类，例如 UIImage 已有 UIImage+Extension ，包含了图片裁剪和方向调整，就不用另写 UIImage+Resize 扩展了，如果想添加方法，在原有扩展上加。</p>
-<p>当然功能比较独立情况除外，例如 YYKit 中：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">UIImage+YYAdd // 图片处理，例如裁剪、高斯模糊、圆角等</div><div class="line">UIImageView+YYWebImage // 加载web图片</div></pre></td></tr></table></figure>
-<h3 id="6-11-能用新的不用老的，比如YYKit"><a href="#6-11-能用新的不用老的，比如YYKit" class="headerlink" title="6.11   能用新的不用老的，比如YYKit"></a>6.11   能用新的不用老的，比如YYKit</h3><p>尽量使用新的技术。比如由于项目比较久比较庞大，以前都用 MJRefresh 的一些封装，后来有了 YYKit 对一些类的封装更好，新的代码使用 YYKit ，慢慢以旧代新。</p>
-<h2 id="七、工具推荐"><a href="#七、工具推荐" class="headerlink" title="七、工具推荐"></a>七、工具推荐</h2><h3 id="7-1-Alcatraz"><a href="#7-1-Alcatraz" class="headerlink" title="7.1 Alcatraz"></a>7.1 Alcatraz</h3><h4 id="7-1-1-Xcode8-兼容"><a href="#7-1-1-Xcode8-兼容" class="headerlink" title="7.1.1 Xcode8 兼容"></a>7.1.1 Xcode8 兼容</h4><p>Xcode8 开始苹果禁止使用插件，所以要做一次 XCode8 上的兼容，亲测有效：</p>
-<ul>
-<li><a href="http://www.jianshu.com/p/738df17e9765" target="_blank" rel="external">兼容－记录Xcode8.0恢复插件全过程
-</a></li>
-</ul>
-<blockquote>
-<p>安装 Alcatraz 时老是报错的话，直接从GitHub上下载 <a href="https://github.com/alcatraz/Alcatraz" target="_blank" rel="external"> Alcatraz </a> 工程 -&gt; 打开 Alcatraz 工程 -&gt; 运行 Alcatraz 工程 -&gt; 退出 Xcode -&gt; 重新打开 Xcode -&gt; <code>Load Bundle</code>。</p>
-</blockquote>
-<h4 id="7-1-2-Xcode-中看不到-Package-Manager"><a href="#7-1-2-Xcode-中看不到-Package-Manager" class="headerlink" title="7.1.2 Xcode 中看不到 Package Manager"></a>7.1.2 Xcode 中看不到 Package Manager</h4><p>当时 OK 了，后来再打开 Xcode -&gt; Window 又看不到 <code>Package Manager</code>  了，一番折腾后找到一篇文章，简单解决掉了。。。文章如下：</p>
-<ul>
-<li><a href="http://www.cnblogs.com/calence/p/6060291.html" target="_blank" rel="external">Xcode插件安装</a></li>
-</ul>
-<h4 id="7-1-3-插件安装无效"><a href="#7-1-3-插件安装无效" class="headerlink" title="7.1.3 插件安装无效"></a>7.1.3 插件安装无效</h4><p>终于能打开 Package Manager 方便的安装插件啦。但是安装后退出 Xcode ，再打开没有弹框是否 Load Bundles ，插件确实使用不了。解决如下：</p>
-<p>在终端输入命令使用 <code>update_xcode_plugins</code> 更新插件后，再重新打开 Xcode 就会弹框是否 Load Bundles 了，选择 Load ，就可以使用了。</p>
-<p>update_xcode_plugins 的安装和使用参考如下：</p>
-<ul>
-<li><a href="https://github.com/inket/update_xcode_plugins" target="_blank" rel="external">update_xcode_plugins</a></li>
-</ul>
-<h3 id="7-2-好用插件推荐"><a href="#7-2-好用插件推荐" class="headerlink" title="7.2 好用插件推荐"></a>7.2 好用插件推荐</h3><p>  以下是我用过觉得好用的插件推荐，大家还有什么好的插件的话欢迎推荐！</p>
-<h4 id="7-2-1-FuzzyAutocomplete"><a href="#7-2-1-FuzzyAutocomplete" class="headerlink" title="7.2.1 FuzzyAutocomplete"></a>7.2.1 FuzzyAutocomplete</h4><p><a href="https://github.com/chendo/FuzzyAutocompletePlugin" target="_blank" rel="external">FuzzyAutocomplete</a> 通过添加模糊匹配来提高 Xcode 代码自动补全功能，开发者无需遵循从头匹配的原则，只要记得方法里某个关键字即可进行匹配，很好地提高了工作效率。  </p>
-<p><img src="./1496208938863.png" alt="Alt text"></p>
-<h4 id="7-2-2-KSImageNamed"><a href="#7-2-2-KSImageNamed" class="headerlink" title="7.2.2  KSImageNamed"></a>7.2.2  KSImageNamed</h4><p><a href="https://github.com/ksuther/KSImageNamed-Xcode" target="_blank" rel="external">KSImageNamed </a>为项目中使用的 UIImage 的 imageNamed: 方法提供文件名自动补全功能。使用 [UIImage imageNamed:@”xxx”] 时，该插件会扫描整个 workspace 中的图片文件，显示图片信息。</p>
-<p><img src="./1496208714736.png" alt="Alt text"></p>
-<h4 id="7-2-3-OMColorSense"><a href="#7-2-3-OMColorSense" class="headerlink" title="7.2.3 OMColorSense"></a>7.2.3 OMColorSense</h4><p><a href="https://github.com/omz/ColorSense-for-Xcode" target="_blank" rel="external">OMColorSense</a> 。代码里的那些冷冰冰的颜色数值，到底时什么颜色？如果你经常遇到这个问题，每每不得不运行下代码去看看，那么这个插件绝对不容错过。更彪悍的是你甚至可以点击显示的颜色面板，直接通过系统的 ColorPicker 来自动生成对应颜色代码！</p>
-<p>使用：任意一个颜色，点击颜色行，该行的右上角会出现色快，点击这个色块可以选择颜色。</p>
-<h4 id="7-2-4-AutoHighlightSymbol"><a href="#7-2-4-AutoHighlightSymbol" class="headerlink" title="7.2.4 AutoHighlightSymbol"></a>7.2.4 AutoHighlightSymbol</h4><p><a href="https://github.com/chiahsien/AutoHighlightSymbol" target="_blank" rel="external">AutoHighlightSymbol</a> 当你在 Xcode 选中一个词或者搜查一个词的时候标注高亮颜色，比 Xcode 自身的虚下划线明显得多。</p>
-<h4 id="7-2-5-VVDocumenter"><a href="#7-2-5-VVDocumenter" class="headerlink" title="7.2.5 VVDocumenter"></a>7.2.5 VVDocumenter</h4><p><a href="https://github.com/onevcat/VVDocumenter-Xcode" target="_blank" rel="external">VVDocumenter</a> 规范化代码注释，只需要输入三个斜线 <code>///</code>，就自动显示规范注释了。 </p>
-<h4 id="7-2-6-FKRealGroup"><a href="#7-2-6-FKRealGroup" class="headerlink" title="7.2.6 FKRealGroup"></a>7.2.6 FKRealGroup</h4><p><a href="https://github.com/Forkong/FKRealGroup" target="_blank" rel="external">FKRealGroup</a> 是一个增强Xcode创建、删除文件夹的插件。FKRealGroup会在编辑菜单中添加 <code>New Real Group</code> 和 <code>Delete Real Group</code> 两个选项。</p>
-<p>Xcode本身的 <code>New Group</code> 选项只会创建一个虚拟文件夹，并不会在本地磁盘创建真实文件夹。<code>New Real Group</code> 选项会在相应磁盘目录创建一个真实的文件夹，<code>Delete Real Group</code> 同理。</p>
-<h4 id="7-2-7-Auto-Importer"><a href="#7-2-7-Auto-Importer" class="headerlink" title="7.2.7 Auto-Importer"></a>7.2.7 Auto-Importer</h4><p><a href="https://github.com/citrusbyte/Auto-Importer-for-Xcode" target="_blank" rel="external">Auto-Importer</a> 快速导入头文件。</p>
-<p>使用方法：选中你要导入的头文件的名称，使用快捷键 <code>⌘ + ctrl + H</code> 即可。</p>
-<h2 id="八、Xcode-快捷键和-Mac-快捷键"><a href="#八、Xcode-快捷键和-Mac-快捷键" class="headerlink" title="八、Xcode 快捷键和 Mac 快捷键"></a>八、Xcode 快捷键和 Mac 快捷键</h2><ul>
-<li><p><a href="http://www.jianshu.com/p/419f2dddd58b" target="_blank" rel="external">五分钟深度记忆你的Xcode快捷键</a></p>
-</li>
-<li><p><a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a></p>
-</li>
-</ul>
-<h2 id="九、参考"><a href="#九、参考" class="headerlink" title="九、参考"></a>九、参考</h2><ul>
-<li><a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html" target="_blank" rel="external"><strong>Apple</strong>：Coding Guidelines for Cocoa</a></li>
-<li><a href="https://google.github.io/styleguide/objcguide.xml" target="_blank" rel="external"><strong>Google</strong>：Google Objective-C Style Guide</a></li>
-<li><a href="https://github.com/github/objective-c-style-guide" target="_blank" rel="external"><strong>GitHub</strong>：Style guide &amp; coding conventions for Objective-C projects</a></li>
-<li><a href="https://github.com/raywenderlich/objective-c-style-guide" target="_blank" rel="external">Raywenderlich官方英文版</a></li>
-<li><a href="https://github.com/samlaudev/Objective-C-Coding-Style#error-handling" target="_blank" rel="external">Raywenderlich稍微改动翻译版</a></li>
-<li><a href="https://github.com/QianKaiLu/Objective-C-Coding-Guidelines-In-Chinese" target="_blank" rel="external">Objective-C-Coding-Guidelines-In-Chinese</a></li>
-</ul>
-
-          
+          一、前言
+为了让代码更加整洁，团队配合更加顺畅，制定开发规范文档，请 iOS 开发同学仔细阅读本文档，并在日常开发过程中遵守本文档中的约定。本规范文档结合 Apple’s Guide、Google’s OC Guide ，以及行业内比较知名的编码规范和开发团队的经验总结而制定，例如 Github’s
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/06/12/一嗨iOS开发规范/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -2199,6 +609,28 @@ list.add(str);
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -2225,76 +657,17 @@ list.add(str);
       
         
           
-            <p>  <em>在页面中，经常碰到这样的需求:一次需要请求多个接口,而某些控件或者转圈的菊花需要到多个请求都回来结果之后才加载或者结束。这时候就需要加一些flag来判断是否请求都完成，与其加bool值判断,不如使用GCD提供的group来实现。下面使用两种方法实现需求效果</em></p>
-<ul>
-<li><p>1.使用信号量:如果semaphore计数大于等于1，计数-1，返回，程序继续运行。如果计数为0，则等待。dispatch_semaphore_signal(semaphore)为计数+1操作。dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER)为设置等待时间，这里设置的等待时间是一直等待</p>
-<pre><code>dispatch_group_t group = dispatch_group_create();
-dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            在页面中，经常碰到这样的需求:一次需要请求多个接口,而某些控件或者转圈的菊花需要到多个请求都回来结果之后才加载或者结束。这时候就需要加一些flag来判断是否请求都完成，与其加bool值判断,不如使用GCD提供的group来实现。下面使用两种方法实现需求效果
 
-  [self request1];
-  NSLog(@&quot;请求1&quot;);
-});
-
-dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-
-  [self request2];
-  NSLog(@&quot;请求2&quot;);
-});
-
-dispatch_group_notify(group, dispatch_get_main_queue(), ^{
-
-  NSLog(@&quot;请求完成=============&quot;);
-});
-
-//request1  (下面request2 相同)
--(void)request1{
-        //创建信号量
-        dispatch_semaphore_t semo=dispatch_semaphore_create(0);
-        请求......成功or失败block{
-             //信号量+1
-             dispatch_semaphore_signal(semo);
-        }
-        //一直等待
-        dispatch_semaphore_wait(semo, DISPATCH_TIME_FOREVER);
-
-}
-</code></pre></li>
-<li><p>2.使用group_enter、group_leave来控制</p>
-<p>  dispatch_group_enter：通知group，下面的任务马上要放到group中执行了。</p>
-<p>  dispatch_group_leave：通知group，任务完成了，该任务要从group中移除了。</p>
-<p>  这两种通知可以在多线程间自由穿梭的</p>
-<pre><code>//首先要定义一个全局的group,因为多个请求在不同的方法中,然后初始化
- _group = dispatch_group_create();
-  dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-
-  [self request1];
-  NSLog(@&quot;请求1&quot;);
-});
-
-dispatch_group_async(_group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-
-  [self request2];
-  NSLog(@&quot;请求2&quot;);
-});
-
-dispatch_group_notify(group, dispatch_get_main_queue(), ^{
-
-  NSLog(@&quot;请求完成=============&quot;);
-});
-
-//request1
--(void)request1{
-    //加入任务
-    dispatch_group_enter(_group);
-
-    开始请求.....成功or失败block{
-        dispatch_group_leave(_group);
-    }
-}
-</code></pre></li>
-</ul>
-
-          
+1.使用信号量:如果semaphor
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/03/19/多线程控制网络同步请求/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -2379,15 +752,24 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             
             
             <div class="site-state-item site-state-tags">
-              
+              <a href="/tags/index.html">
                 <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -2442,7 +824,7 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
@@ -2481,6 +863,8 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
   
 
 
+  
+
 
 
 
@@ -2508,6 +892,9 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   

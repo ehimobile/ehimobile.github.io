@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -60,11 +60,17 @@
   
 
   
+    
+      
+    
+
+    
+  
 
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -100,7 +106,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/03/19/多线程控制网络同步请求/index.html">
 <meta property="og:site_name" content="一嗨移动组技术博客">
 <meta property="og:description" content="在页面中，经常碰到这样的需求:一次需要请求多个接口,而某些控件或者转圈的菊花需要到多个请求都回来结果之后才加载或者结束。这时候就需要加一些flag来判断是否请求都完成，与其加bool值判断,不如使用GCD提供的group来实现。下面使用两种方法实现需求效果  1.使用信号量:如果semaphore计数大于等于1，计数-1，返回，程序继续运行。如果计数为0，则等待。dispatch_semaph">
-<meta property="og:updated_time" content="2017-05-05T09:26:44.000Z">
+<meta property="og:updated_time" content="2017-06-22T04:49:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多线程控制网络同步请求">
 <meta name="twitter:description" content="在页面中，经常碰到这样的需求:一次需要请求多个接口,而某些控件或者转圈的菊花需要到多个请求都回来结果之后才加载或者结束。这时候就需要加一些flag来判断是否请求都完成，与其加bool值判断,不如使用GCD提供的group来实现。下面使用两种方法实现需求效果  1.使用信号量:如果semaphore计数大于等于1，计数-1，返回，程序继续运行。如果计数为0，则等待。dispatch_semaph">
@@ -111,7 +117,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -214,7 +220,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            目录
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -225,6 +241,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -296,6 +322,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -515,15 +563,24 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             
             
             <div class="site-state-item site-state-tags">
-              
+              <a href="/tags/index.html">
                 <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -578,7 +635,7 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
@@ -617,6 +674,8 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
   
 
 
+  
+
 
 
 
@@ -644,6 +703,9 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
